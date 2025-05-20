@@ -10,16 +10,31 @@
     "build": "tsc",
     "start": "node dist/cli.js",
     "dev": "ts-node src/cli.ts",
-    "test": "jest"
+    "test": "jest",
+    "prepublishOnly": "npm run build"
   },
   "keywords": [
     "github",
     "issues",
     "cli",
-    "typescript"
+    "typescript",
+    "repositories",
+    "search",
+    "api"
   ],
   "author": "sumitvekariya",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sumitvekariya/github-issues-fetcher.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sumitvekariya/github-issues-fetcher/issues"
+  },
+  "homepage": "https://github.com/sumitvekariya/github-issues-fetcher#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
   "dependencies": {
     "commander": "^11.1.0",
     "cross-fetch": "^4.0.0",
@@ -34,5 +49,10 @@
     "ts-node": "^10.9.2",
     "jest": "^29.7.0",
     "ts-jest": "^29.1.2"
-  }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ]
 } 
