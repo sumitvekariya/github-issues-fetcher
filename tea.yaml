@@ -1,0 +1,11 @@
+provides:
+  - github-issues-fetcher
+
+dependencies:
+  - node@>=14.0.0
+
+install: |
+  npm install -g github-issues-fetcher@1.0.1
+
+test: |
+  gh-issues --version 
