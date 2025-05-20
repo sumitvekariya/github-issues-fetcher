@@ -1,0 +1,2227 @@
+{
+  "metadata": {
+    "timestamp": "2025-05-20T14:35:53.093Z",
+    "query": {
+      "orgs": [
+        "ethereum"
+      ],
+      "labels": [
+        "good first issue"
+      ],
+      "since": "2024-05-20"
+    }
+  },
+  "issues": [
+    {
+      "id": "I_kwDOBvEA_s63NgIf",
+      "number": 15474,
+      "title": "Bug report: missing page title: developers hub",
+      "body": "### Describe the bug\n\nlooking at the browser i see missing title info: https://ethereum.org/en/developers/\n\n### To reproduce\n\n1. Go to https://ethereum.org/en/developers/\n2. look at browser page title\n\n### Expected behavior\n\nshould say: \"Ethereum developer resources\" or something like that if its already defined in the file\n\n### Screenshots\n\n<img width=\"252\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/430c59d5-1073-472e-b714-ed75b0a232f0\" />\n\n### Desktop (please complete the following information)\n\n_No response_\n\n### Smartphone (please complete the following information)\n\n_No response_\n\n### Additional context\n\n_No response_\n\n### Would you like to work on this issue?\n\n- [ ] Yes\n- [x] No",
+      "url": "https://github.com/ethereum/ethereum-org-website/issues/15474",
+      "createdAt": 1747659635000,
+      "updatedAt": 1747660917000,
+      "author": {
+        "id": "U_kgDOBgDuBw",
+        "login": "konopkja",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/100724231?u=9f8f02f877c7d0622becb1d8e36c5cd6272dd086&v=4",
+        "url": "https://github.com/konopkja"
+      },
+      "comments": {
+        "totalCount": 1
+      },
+      "labels": [
+        {
+          "name": "bug 🐛",
+          "color": "ee0701"
+        },
+        {
+          "name": "good first issue",
+          "color": "6C5DF6"
+        }
+      ],
+      "repository": {
+        "id": "MDEwOlJlcG9zaXRvcnkxMTY0NTc3MjY=",
+        "name": "ethereum-org-website",
+        "nameWithOwner": "ethereum/ethereum-org-website",
+        "description": "Ethereum.org is a primary online resource for the Ethereum community.",
+        "stargazerCount": 5372,
+        "forkCount": 5077,
+        "primaryLanguage": {
+          "name": "Markdown",
+          "color": "#083fa1"
+        },
+        "url": "https://github.com/ethereum/ethereum-org-website",
+        "createdAt": "2018-01-06T05:54:37Z",
+        "updatedAt": "2025-05-20T05:51:09Z",
+        "pushedAt": "2025-05-20T14:13:03Z",
+        "owner": {
+          "id": "MDEyOk9yZ2FuaXphdGlvbjYyNTA3NTQ=",
+          "login": "ethereum",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/6250754?v=4",
+          "url": "https://github.com/ethereum"
+        }
+      },
+      "commentsCount": 1
+    },
+    {
+      "id": "I_kwDOBvEA_s62-vWr",
+      "number": 15461,
+      "title": "Add new page: Real world assets",
+      "body": "The task is to implement a brand new page to our website!\n\nInstructions\nURL for the page should be: /real-world-assets\n\nDesign and content of the page:\nhttps://www.figma.com/design/2wR1FbBmrTRpegoa200d4m/WIP---Real-world-assets?node-id=18901-605&t=mKmwlxcYE9cS8PYO-1\n\nthis design follows the same template as for example: https://ethereum.org/en/defi/ or https://ethereum.org/en/nft/\n\nif you have any questions feel free to comment in figma or in this issue!",
+      "url": "https://github.com/ethereum/ethereum-org-website/issues/15461",
+      "createdAt": 1747429849000,
+      "updatedAt": 1747564225000,
+      "author": {
+        "id": "U_kgDOBgDuBw",
+        "login": "konopkja",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/100724231?u=9f8f02f877c7d0622becb1d8e36c5cd6272dd086&v=4",
+        "url": "https://github.com/konopkja"
+      },
+      "comments": {
+        "totalCount": 5
+      },
+      "labels": [
+        {
+          "name": "good first issue",
+          "color": "6C5DF6"
+        },
+        {
+          "name": "dev required",
+          "color": "90AE07"
+        }
+      ],
+      "repository": {
+        "id": "MDEwOlJlcG9zaXRvcnkxMTY0NTc3MjY=",
+        "name": "ethereum-org-website",
+        "nameWithOwner": "ethereum/ethereum-org-website",
+        "description": "Ethereum.org is a primary online resource for the Ethereum community.",
+        "stargazerCount": 5372,
+        "forkCount": 5077,
+        "primaryLanguage": {
+          "name": "Markdown",
+          "color": "#083fa1"
+        },
+        "url": "https://github.com/ethereum/ethereum-org-website",
+        "createdAt": "2018-01-06T05:54:37Z",
+        "updatedAt": "2025-05-20T05:51:09Z",
+        "pushedAt": "2025-05-20T14:13:03Z",
+        "owner": {
+          "id": "MDEyOk9yZ2FuaXphdGlvbjYyNTA3NTQ=",
+          "login": "ethereum",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/6250754?v=4",
+          "url": "https://github.com/ethereum"
+        }
+      },
+      "commentsCount": 5
+    },
+    {
+      "id": "I_kwDOAOvK98619UKG",
+      "number": 31796,
+      "title": "Print out address and private keys for dev accounts",
+      "body": "Similar to truffle, anvil, etc.\n\n```\nAvailable Accounts\n==================\n\n(0) 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266 (10000.000000000000000000 ETH)\n(1) 0x70997970C51812dc3A010C7d01b50e0d17dc79C8 (10000.000000000000000000 ETH)\n(2) 0x3C44CdDdB6a900fa2b585dd299e03d12FA4293BC (10000.000000000000000000 ETH)\n(3) 0x90F79bf6EB2c4f870365E785982E1f101E93b906 (10000.000000000000000000 ETH)\n(4) 0x15d34AAf54267DB7D7c367839AAf71A00a2C6A65 (10000.000000000000000000 ETH)\n(5) 0x9965507D1a55bcC2695C58ba16FB37d819B0A4dc (10000.000000000000000000 ETH)\n(6) 0x976EA74026E726554dB657fA54763abd0C3a0aa9 (10000.000000000000000000 ETH)\n(7) 0x14dC79964da2C08b23698B3D3cc7Ca32193d9955 (10000.000000000000000000 ETH)\n(8) 0x23618e81E3f5cdF7f54C3d65f7FBc0aBf5B21E8f (10000.000000000000000000 ETH)\n(9) 0xa0Ee7A142d267C1f36714E4a8F75612F20a79720 (10000.000000000000000000 ETH)\n\nPrivate Keys\n==================\n\n(0) 0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80\n(1) 0x59c6995e998f97a5a0044966f0945389dc9e86dae88c7a8412f4603b6b78690d\n(2) 0x5de4111afa1a4b94908f83103eb1f1706367c2e68ca870fc3fb9a804cdab365a\n(3) 0x7c852118294e51e653712a81e05800f419141751be58f605c371e15141b007a6\n(4) 0x47e179ec197488593b187f80a00eb0da91f1b9d0b13f8733639f19c30a34926a\n(5) 0x8b3a350cf5c34c9194ca85829a2df0ec3153be0318b5e2d3348e872092edffba\n(6) 0x92db14e403b83dfe3df233f83dfa3a0d7096f21ca9b0d6d6b8d88b2b4ec1564e\n(7) 0x4bbbf85ce3377467afe5d46f804f221813b2bb87f24d81f60f1fcdbf7cbf4356\n(8) 0xdbda1821b80551c9d65939329250298aa3472ba22feea921c0cf5d620ea67b97\n(9) 0x2a871d0798f97d79848a013d4936a73bf4cc922c825d33c1cf7073dff6d409c6\n\nWallet\n==================\nMnemonic:          test test test test test test test test test test test junk\nDerivation path:   m/44'/60'/0'/0/\n```",
+      "url": "https://github.com/ethereum/go-ethereum/issues/31796",
+      "createdAt": 1746811060000,
+      "updatedAt": 1747333341000,
+      "author": {
+        "id": "MDQ6VXNlcjE0MDA0MTA2",
+        "login": "lightclient",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/14004106?u=17bd7e09ec0361a4b4431c6ff715a79d7de94f44&v=4",
+        "url": "https://github.com/lightclient"
+      },
+      "comments": {
+        "totalCount": 4
+      },
+      "labels": [
+        {
+          "name": "type:feature",
+          "color": "84b6eb"
+        },
+        {
+          "name": "help wanted",
+          "color": "0e8a16"
+        },
+        {
+          "name": "good first issue",
+          "color": "006b75"
+        }
+      ],
+      "repository": {
+        "id": "MDEwOlJlcG9zaXRvcnkxNTQ1MjkxOQ==",
+        "name": "go-ethereum",
+        "nameWithOwner": "ethereum/go-ethereum",
+        "description": "Go implementation of the Ethereum protocol",
+        "stargazerCount": 48974,
+        "forkCount": 20863,
+        "primaryLanguage": {
+          "name": "Go",
+          "color": "#00ADD8"
+        },
+        "url": "https://github.com/ethereum/go-ethereum",
+        "createdAt": "2013-12-26T13:05:46Z",
+        "updatedAt": "2025-05-20T13:38:41Z",
+        "pushedAt": "2025-05-20T13:38:34Z",
+        "owner": {
+          "id": "MDEyOk9yZ2FuaXphdGlvbjYyNTA3NTQ=",
+          "login": "ethereum",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/6250754?v=4",
+          "url": "https://github.com/ethereum"
+        }
+      },
+      "commentsCount": 4
+    },
+    {
+      "id": "I_kwDOBvEA_s61zN78",
+      "number": 15415,
+      "title": "Add Arbitrum and Aztec grants programs to /community/grants/",
+      "body": "### Context\nAdd information about the Arbitrum and Aztec grants programs to [ethereum.org's Ethereum grants page](https://ethereum.org/en/community/grants/).\n\n### Task\nAdd the following projects to the [Project Specific](https://ethereum.org/en/community/grants/#project-specific) section:\n\n```\n[Arbitrum Grants](https://arbitrum.foundation/grants) – Arbitrum DAO and [The Arbitrum Foundation](https://arbitrum.foundation/)\n\n[Aztec Grants Program](https://aztec.network/grants) – Noir language and the [Aztec](https://aztec.network/) network\n```\n\n### Note\nKnow of any other grant programs that should be included on the Ethereum grants page at ethereum.org? Let us know!\n",
+      "url": "https://github.com/ethereum/ethereum-org-website/issues/15415",
+      "createdAt": 1746738812000,
+      "updatedAt": 1747048655000,
+      "author": {
+        "id": "U_kgDOByOipQ",
+        "login": "isabelladebrito",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/119775909?u=b9039a2d524b32727119e1d59d994b46f1ce053d&v=4",
+        "url": "https://github.com/isabelladebrito"
+      },
+      "comments": {
+        "totalCount": 2
+      },
+      "labels": [
+        {
+          "name": "content 🖋️",
+          "color": "70e855"
+        },
+        {
+          "name": "good first issue",
+          "color": "6C5DF6"
+        }
+      ],
+      "repository": {
+        "id": "MDEwOlJlcG9zaXRvcnkxMTY0NTc3MjY=",
+        "name": "ethereum-org-website",
+        "nameWithOwner": "ethereum/ethereum-org-website",
+        "description": "Ethereum.org is a primary online resource for the Ethereum community.",
+        "stargazerCount": 5372,
+        "forkCount": 5077,
+        "primaryLanguage": {
+          "name": "Markdown",
+          "color": "#083fa1"
+        },
+        "url": "https://github.com/ethereum/ethereum-org-website",
+        "createdAt": "2018-01-06T05:54:37Z",
+        "updatedAt": "2025-05-20T05:51:09Z",
+        "pushedAt": "2025-05-20T14:13:03Z",
+        "owner": {
+          "id": "MDEyOk9yZ2FuaXphdGlvbjYyNTA3NTQ=",
+          "login": "ethereum",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/6250754?v=4",
+          "url": "https://github.com/ethereum"
+        }
+      },
+      "commentsCount": 2
+    },
+    {
+      "id": "I_kwDOBvEA_s61h_wd",
+      "number": 15410,
+      "title": "Replace URL on the /roadmap page",
+      "body": "### Context\nOn the [Ethereum roadmap page](https://ethereum.org/en/roadmap/), the 'Learn more' button on the Fusaka upgrade (in development) leads to a page that is not live yet (https://ethereum.org/en/roadmap/fusaka/).\n\n<img width=\"1007\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/a8513d27-f364-428f-98e1-2d02c71b27dc\" />\n\n\n### Task\nReplace the URL on the 'Learn more' button of the Fusaka upgrade slide into PeerDAS EIP URL (an external URL, https://eips.ethereum.org/EIPS/eip-7594) while ethereum.org's Fusaka page is under development. \n\n\n### Note\nThe same approach of adding an EIP URL was taken on the Glamsterdam slide on /roadmap. If there's a more suitable URL to be added, please let us know in the comments!",
+      "url": "https://github.com/ethereum/ethereum-org-website/issues/15410",
+      "createdAt": 1746615834000,
+      "updatedAt": 1746758584000,
+      "author": {
+        "id": "U_kgDOByOipQ",
+        "login": "isabelladebrito",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/119775909?u=b9039a2d524b32727119e1d59d994b46f1ce053d&v=4",
+        "url": "https://github.com/isabelladebrito"
+      },
+      "comments": {
+        "totalCount": 3
+      },
+      "labels": [
+        {
+          "name": "bug 🐛",
+          "color": "ee0701"
+        },
+        {
+          "name": "good first issue",
+          "color": "6C5DF6"
+        },
+        {
+          "name": "needs technical content review 🧑‍🏫",
+          "color": "FEAF12"
+        }
+      ],
+      "repository": {
+        "id": "MDEwOlJlcG9zaXRvcnkxMTY0NTc3MjY=",
+        "name": "ethereum-org-website",
+        "nameWithOwner": "ethereum/ethereum-org-website",
+        "description": "Ethereum.org is a primary online resource for the Ethereum community.",
+        "stargazerCount": 5372,
+        "forkCount": 5077,
+        "primaryLanguage": {
+          "name": "Markdown",
+          "color": "#083fa1"
+        },
+        "url": "https://github.com/ethereum/ethereum-org-website",
+        "createdAt": "2018-01-06T05:54:37Z",
+        "updatedAt": "2025-05-20T05:51:09Z",
+        "pushedAt": "2025-05-20T14:13:03Z",
+        "owner": {
+          "id": "MDEyOk9yZ2FuaXphdGlvbjYyNTA3NTQ=",
+          "login": "ethereum",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/6250754?v=4",
+          "url": "https://github.com/ethereum"
+        }
+      },
+      "commentsCount": 3
+    },
+    {
+      "id": "I_kwDOBvEA_s61Z9R9",
+      "number": 15407,
+      "title": "Deprecate InfoBanner, migrate usage to `ui/alert` components",
+      "body": "### Describe the issue\n\nThe InfoBanner component is out of sync with our design system. PR #13986 was an attempt to update, but it got lost in the shuffle and the codebase has since updated quite a bit leaving that one with quite a few merge conflicts.\n\nRequesting we try again to deprecate all instances of InfoBanner and replace with usage of the Alert component (using variants and tailwind classes), as demonstrated in #13986. That branch should be available for reference as needed.\n\n### Expected behavior\n\nInfoBanner component should be removed from codebase, with all instances refactored to use Alert component instead\n\n### Would you like to work on this issue?\n\n- [ ] Yes\n- [x] No",
+      "url": "https://github.com/ethereum/ethereum-org-website/issues/15407",
+      "createdAt": 1746551172000,
+      "updatedAt": 1747250908000,
+      "author": {
+        "id": "MDQ6VXNlcjU0MjI3NzMw",
+        "login": "wackerow",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54227730?u=d309b39e7724bff546ce919e209cb06f440a8fe8&v=4",
+        "url": "https://github.com/wackerow"
+      },
+      "comments": {
+        "totalCount": 2
+      },
+      "labels": [
+        {
+          "name": "help wanted",
+          "color": "206699"
+        },
+        {
+          "name": "good first issue",
+          "color": "6C5DF6"
+        },
+        {
+          "name": "design",
+          "color": "800284"
+        }
+      ],
+      "repository": {
+        "id": "MDEwOlJlcG9zaXRvcnkxMTY0NTc3MjY=",
+        "name": "ethereum-org-website",
+        "nameWithOwner": "ethereum/ethereum-org-website",
+        "description": "Ethereum.org is a primary online resource for the Ethereum community.",
+        "stargazerCount": 5372,
+        "forkCount": 5077,
+        "primaryLanguage": {
+          "name": "Markdown",
+          "color": "#083fa1"
+        },
+        "url": "https://github.com/ethereum/ethereum-org-website",
+        "createdAt": "2018-01-06T05:54:37Z",
+        "updatedAt": "2025-05-20T05:51:09Z",
+        "pushedAt": "2025-05-20T14:13:03Z",
+        "owner": {
+          "id": "MDEyOk9yZ2FuaXphdGlvbjYyNTA3NTQ=",
+          "login": "ethereum",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/6250754?v=4",
+          "url": "https://github.com/ethereum"
+        }
+      },
+      "commentsCount": 2
+    },
+    {
+      "id": "I_kwDOBvEA_s61JpNt",
+      "number": 15402,
+      "title": "Add ETHDimsum on Ethereum meetups [/community/events/#meetups]",
+      "body": "### Context\nAdd ETHDimsum to ethereum.org's Ethereum meetups list (https://ethereum.org/en/community/events/#meetups)\n\n\n### Meetup to be added\nETHDimsum\n🌏  Guangdong, Hong Kong, Macao\nURL: https://lu.ma/user/usr-Irp0cJhplYWGoK4\n\n### Would you like to work on this issue?\n\n- [ ] Yes\n- [X] No",
+      "url": "https://github.com/ethereum/ethereum-org-website/issues/15402",
+      "createdAt": 1746439837000,
+      "updatedAt": 1746629854000,
+      "author": {
+        "id": "U_kgDOByOipQ",
+        "login": "isabelladebrito",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/119775909?u=b9039a2d524b32727119e1d59d994b46f1ce053d&v=4",
+        "url": "https://github.com/isabelladebrito"
+      },
+      "comments": {
+        "totalCount": 2
+      },
+      "labels": [
+        {
+          "name": "content 🖋️",
+          "color": "70e855"
+        },
+        {
+          "name": "good first issue",
+          "color": "6C5DF6"
+        }
+      ],
+      "repository": {
+        "id": "MDEwOlJlcG9zaXRvcnkxMTY0NTc3MjY=",
+        "name": "ethereum-org-website",
+        "nameWithOwner": "ethereum/ethereum-org-website",
+        "description": "Ethereum.org is a primary online resource for the Ethereum community.",
+        "stargazerCount": 5372,
+        "forkCount": 5077,
+        "primaryLanguage": {
+          "name": "Markdown",
+          "color": "#083fa1"
+        },
+        "url": "https://github.com/ethereum/ethereum-org-website",
+        "createdAt": "2018-01-06T05:54:37Z",
+        "updatedAt": "2025-05-20T05:51:09Z",
+        "pushedAt": "2025-05-20T14:13:03Z",
+        "owner": {
+          "id": "MDEyOk9yZ2FuaXphdGlvbjYyNTA3NTQ=",
+          "login": "ethereum",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/6250754?v=4",
+          "url": "https://github.com/ethereum"
+        }
+      },
+      "commentsCount": 2
+    },
+    {
+      "id": "I_kwDOBvEA_s61JSNi",
+      "number": 15401,
+      "title": "Update /payments page to include examples of self-custodial crypto cards",
+      "body": "### Context\nWe'd like to include some examples of self-custodial crypto cards on the \"[Ethereum Payments](https://ethereum.org/en/payments/)\" page.\n\n### Task\nCreate a section on the [Ethereum Payments page](https://ethereum.org/en/payments/) covering examples of self-custodial crypto cards - think of [Metamask Card](https://metamask.io/en-GB/card), [Tuyo](https://tuyo.com/), [Gnosis Pay Card](https://gnosispay.com/card), and many other examples out there.\n\nFeel free to make additional improvements to other parts of the article if needed!\n\n### Note\nThis is a beginner-friendly task! Once you express interest in working on it, we'll assign you to the issue on GitHub. You can then submit your text replacement suggestion via comments.\n\nAfter your suggestion is approved, we can guide you through submitting a PR. Alternatively, if you'd prefer, another contributor can handle the PR submission using your suggested amendments.\n\nFor questions, please tag @konopkja in the comments 😃 ",
+      "url": "https://github.com/ethereum/ethereum-org-website/issues/15401",
+      "createdAt": 1746437382000,
+      "updatedAt": 1746704943000,
+      "author": {
+        "id": "U_kgDOByOipQ",
+        "login": "isabelladebrito",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/119775909?u=b9039a2d524b32727119e1d59d994b46f1ce053d&v=4",
+        "url": "https://github.com/isabelladebrito"
+      },
+      "comments": {
+        "totalCount": 8
+      },
+      "labels": [
+        {
+          "name": "content 🖋️",
+          "color": "70e855"
+        },
+        {
+          "name": "good first issue",
+          "color": "6C5DF6"
+        }
+      ],
+      "repository": {
+        "id": "MDEwOlJlcG9zaXRvcnkxMTY0NTc3MjY=",
+        "name": "ethereum-org-website",
+        "nameWithOwner": "ethereum/ethereum-org-website",
+        "description": "Ethereum.org is a primary online resource for the Ethereum community.",
+        "stargazerCount": 5372,
+        "forkCount": 5077,
+        "primaryLanguage": {
+          "name": "Markdown",
+          "color": "#083fa1"
+        },
+        "url": "https://github.com/ethereum/ethereum-org-website",
+        "createdAt": "2018-01-06T05:54:37Z",
+        "updatedAt": "2025-05-20T05:51:09Z",
+        "pushedAt": "2025-05-20T14:13:03Z",
+        "owner": {
+          "id": "MDEyOk9yZ2FuaXphdGlvbjYyNTA3NTQ=",
+          "login": "ethereum",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/6250754?v=4",
+          "url": "https://github.com/ethereum"
+        }
+      },
+      "commentsCount": 8
+    },
+    {
+      "id": "I_kwDOBvEA_s60vMfk",
+      "number": 15361,
+      "title": "Add new page: Gaming",
+      "body": "The task is to implement a brand new page to our website!\n\n**Instructions**\nURL for the page should be: /gaming\n\n**Design and content of the page:**\nhttps://www.figma.com/design/LK5cOnsOPkdgxP93yp7CeZ/Gaming?node-id=9203-55522&t=LCprNw9INifbSKAx-1\n\nthis design follows the same template as for example: https://ethereum.org/en/defi/ or https://ethereum.org/en/nft/\n\nif you have any questions feel free to comment in figma or in this issue!\n\n",
+      "url": "https://github.com/ethereum/ethereum-org-website/issues/15361",
+      "createdAt": 1746041269000,
+      "updatedAt": 1747478840000,
+      "author": {
+        "id": "U_kgDOBgDuBw",
+        "login": "konopkja",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/100724231?u=9f8f02f877c7d0622becb1d8e36c5cd6272dd086&v=4",
+        "url": "https://github.com/konopkja"
+      },
+      "comments": {
+        "totalCount": 10
+      },
+      "labels": [
+        {
+          "name": "good first issue",
+          "color": "6C5DF6"
+        },
+        {
+          "name": "dev required",
+          "color": "90AE07"
+        }
+      ],
+      "repository": {
+        "id": "MDEwOlJlcG9zaXRvcnkxMTY0NTc3MjY=",
+        "name": "ethereum-org-website",
+        "nameWithOwner": "ethereum/ethereum-org-website",
+        "description": "Ethereum.org is a primary online resource for the Ethereum community.",
+        "stargazerCount": 5372,
+        "forkCount": 5077,
+        "primaryLanguage": {
+          "name": "Markdown",
+          "color": "#083fa1"
+        },
+        "url": "https://github.com/ethereum/ethereum-org-website",
+        "createdAt": "2018-01-06T05:54:37Z",
+        "updatedAt": "2025-05-20T05:51:09Z",
+        "pushedAt": "2025-05-20T14:13:03Z",
+        "owner": {
+          "id": "MDEyOk9yZ2FuaXphdGlvbjYyNTA3NTQ=",
+          "login": "ethereum",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/6250754?v=4",
+          "url": "https://github.com/ethereum"
+        }
+      },
+      "commentsCount": 10
+    },
+    {
+      "id": "I_kwDOBvEA_s60vDkX",
+      "number": 15359,
+      "title": "Add new page: restaking",
+      "body": "The task is to implement a brand new page to our website!\n\n**Instructions**\nURL for the page should be: /restaking\n\n**Design and content of the page:**\nhttps://www.figma.com/design/F4QMnpXTiBaZOKcllhthkL/restaking?node-id=9203-55522&t=OrHKsTcYLwQsaft3-1\n\nthis design follows the same template as for example: https://ethereum.org/en/defi/ or https://ethereum.org/en/nft/\n\nif you have any questions feel free to comment in figma or in this issue!\n\n\n",
+      "url": "https://github.com/ethereum/ethereum-org-website/issues/15359",
+      "createdAt": 1746040420000,
+      "updatedAt": 1746088402000,
+      "author": {
+        "id": "U_kgDOBgDuBw",
+        "login": "konopkja",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/100724231?u=9f8f02f877c7d0622becb1d8e36c5cd6272dd086&v=4",
+        "url": "https://github.com/konopkja"
+      },
+      "comments": {
+        "totalCount": 5
+      },
+      "labels": [
+        {
+          "name": "good first issue",
+          "color": "6C5DF6"
+        },
+        {
+          "name": "dev required",
+          "color": "90AE07"
+        }
+      ],
+      "repository": {
+        "id": "MDEwOlJlcG9zaXRvcnkxMTY0NTc3MjY=",
+        "name": "ethereum-org-website",
+        "nameWithOwner": "ethereum/ethereum-org-website",
+        "description": "Ethereum.org is a primary online resource for the Ethereum community.",
+        "stargazerCount": 5372,
+        "forkCount": 5077,
+        "primaryLanguage": {
+          "name": "Markdown",
+          "color": "#083fa1"
+        },
+        "url": "https://github.com/ethereum/ethereum-org-website",
+        "createdAt": "2018-01-06T05:54:37Z",
+        "updatedAt": "2025-05-20T05:51:09Z",
+        "pushedAt": "2025-05-20T14:13:03Z",
+        "owner": {
+          "id": "MDEyOk9yZ2FuaXphdGlvbjYyNTA3NTQ=",
+          "login": "ethereum",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/6250754?v=4",
+          "url": "https://github.com/ethereum"
+        }
+      },
+      "commentsCount": 5
+    },
+    {
+      "id": "I_kwDOCusnus6za_ei",
+      "number": 2098,
+      "title": "In the new repo.sourcify.dev show file tree with the source sode editor",
+      "body": "Currently in repo.sourcify.dev we show the source files each as a new tab on the left hand side like `@openzeppelin...` here: \n\nhttps://repo.sourcify.dev/10/0x6018F5a151d43a8Da47829d329fa7D8C4dBa79db\n<img width=\"1252\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/d7973d7e-4b9a-46bb-9766-b3bf3b0f24e5\" />\n\n\nWe'd like to have them shown under a file tree like in Blockscout or Routescan \n\nBlockscout\n<img width=\"1217\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/ae35e0ee-9bea-4ed5-a0f5-1cbbe6e1a83f\" />\n\nRoutescan\n<img width=\"1444\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/8271d619-3719-44e4-a26a-196b895e8dee\" />\n\nWe still want the file tree to be on the **left hand side**.\n\nRelated code in Blockscout is found here: https://github.com/blockscout/frontend/blob/main/ui/shared/monaco/CodeEditor.tsx\n\nWe can potentially copy paste most of this code and adjust for our data format. \n\nTODOs:\n- [ ] Show the file tree on the left-hand side\n- [ ] Show icons for files\n- [ ] Open new files in new tabs ",
+      "url": "https://github.com/ethereum/sourcify/issues/2098",
+      "createdAt": 1745307208000,
+      "updatedAt": 1747641428000,
+      "author": {
+        "id": "MDQ6VXNlcjEzMDY5OTcy",
+        "login": "kuzdogan",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13069972?u=026ff4eade3b02c5d4810551aa390b58d439ec46&v=4",
+        "url": "https://github.com/kuzdogan"
+      },
+      "comments": {
+        "totalCount": 1
+      },
+      "labels": [
+        {
+          "name": "good first issue",
+          "color": "006b75"
+        }
+      ],
+      "repository": {
+        "id": "MDEwOlJlcG9zaXRvcnkxODMxODMyOTA=",
+        "name": "sourcify",
+        "nameWithOwner": "ethereum/sourcify",
+        "description": "Source code verification service for Ethereum smart contracts",
+        "stargazerCount": 843,
+        "forkCount": 459,
+        "primaryLanguage": {
+          "name": "TypeScript",
+          "color": "#3178c6"
+        },
+        "url": "https://github.com/ethereum/sourcify",
+        "createdAt": "2019-04-24T08:23:22Z",
+        "updatedAt": "2025-05-20T12:48:11Z",
+        "pushedAt": "2025-05-20T12:57:25Z",
+        "owner": {
+          "id": "MDEyOk9yZ2FuaXphdGlvbjYyNTA3NTQ=",
+          "login": "ethereum",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/6250754?v=4",
+          "url": "https://github.com/ethereum"
+        }
+      },
+      "commentsCount": 1
+    },
+    {
+      "id": "I_kwDOCusnus6yXrHx",
+      "number": 2075,
+      "title": "Publish sourcify.dev also via sourcify.eth",
+      "body": "",
+      "url": "https://github.com/ethereum/sourcify/issues/2075",
+      "createdAt": 1744624833000,
+      "updatedAt": 1745932196000,
+      "author": {
+        "id": "MDQ6VXNlcjEzMDY5OTcy",
+        "login": "kuzdogan",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13069972?u=026ff4eade3b02c5d4810551aa390b58d439ec46&v=4",
+        "url": "https://github.com/kuzdogan"
+      },
+      "comments": {
+        "totalCount": 0
+      },
+      "labels": [
+        {
+          "name": "good first issue",
+          "color": "006b75"
+        }
+      ],
+      "repository": {
+        "id": "MDEwOlJlcG9zaXRvcnkxODMxODMyOTA=",
+        "name": "sourcify",
+        "nameWithOwner": "ethereum/sourcify",
+        "description": "Source code verification service for Ethereum smart contracts",
+        "stargazerCount": 843,
+        "forkCount": 459,
+        "primaryLanguage": {
+          "name": "TypeScript",
+          "color": "#3178c6"
+        },
+        "url": "https://github.com/ethereum/sourcify",
+        "createdAt": "2019-04-24T08:23:22Z",
+        "updatedAt": "2025-05-20T12:48:11Z",
+        "pushedAt": "2025-05-20T12:57:25Z",
+        "owner": {
+          "id": "MDEyOk9yZ2FuaXphdGlvbjYyNTA3NTQ=",
+          "login": "ethereum",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/6250754?v=4",
+          "url": "https://github.com/ethereum"
+        }
+      },
+      "commentsCount": 0
+    },
+    {
+      "id": "I_kwDOIQGLK86x00H1",
+      "number": 1428,
+      "title": "Implement `pre.empty_account()`",
+      "body": "We do a lot the trick of `pre.fund_eoa(amount=0)` to signal in a test that we want an account that is guaranteed to be empty (and it's not a precompile or a system contract).\n\nIt would be better to have an explicit function like `pre.empty_account()` that would take no arguments and would always return an empty account in any context.\n\nWe would have to add an abstract method here https://github.com/ethereum/execution-spec-tests/blob/eaad0dd4079ce96d00139e7f42d2f4e109017db1/src/ethereum_test_types/types.py#L300\n\nAnd then an implementation to:\nhttps://github.com/ethereum/execution-spec-tests/blob/eaad0dd4079ce96d00139e7f42d2f4e109017db1/src/pytest_plugins/execute/pre_alloc.py#L345\nand\nhttps://github.com/ethereum/execution-spec-tests/blob/eaad0dd4079ce96d00139e7f42d2f4e109017db1/src/pytest_plugins/filler/pre_alloc.py#L252",
+      "url": "https://github.com/ethereum/execution-spec-tests/issues/1428",
+      "createdAt": 1744218550000,
+      "updatedAt": 1744737551000,
+      "author": {
+        "id": "MDQ6VXNlcjExNzI2NzEw",
+        "login": "marioevz",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11726710?v=4",
+        "url": "https://github.com/marioevz"
+      },
+      "comments": {
+        "totalCount": 3
+      },
+      "labels": [
+        {
+          "name": "good first issue",
+          "color": "7057ff"
+        }
+      ],
+      "repository": {
+        "id": "R_kgDOIQGLKw",
+        "name": "execution-spec-tests",
+        "nameWithOwner": "ethereum/execution-spec-tests",
+        "description": "A Python framework and collection of test cases to generate test vectors for Ethereum execution clients",
+        "stargazerCount": 144,
+        "forkCount": 133,
+        "primaryLanguage": {
+          "name": "Python",
+          "color": "#3572A5"
+        },
+        "url": "https://github.com/ethereum/execution-spec-tests",
+        "createdAt": "2022-10-18T17:52:59Z",
+        "updatedAt": "2025-05-20T14:01:11Z",
+        "pushedAt": "2025-05-20T14:11:12Z",
+        "owner": {
+          "id": "MDEyOk9yZ2FuaXphdGlvbjYyNTA3NTQ=",
+          "login": "ethereum",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/6250754?v=4",
+          "url": "https://github.com/ethereum"
+        }
+      },
+      "commentsCount": 3
+    },
+    {
+      "id": "I_kwDOBvEA_s6xAP3C",
+      "number": 15231,
+      "title": "fix: back to top button in docs",
+      "body": "### Describe the bug\n\nThe back to top button is broken \n\n### To reproduce\n\n1. Go to **https://ethereum.org/en/developers/docs/intro-to-ethereum/**\n2. Scroll down to bottom part with feedback buttons\n3. See error\n\n\n### Expected behavior\n\nfix how it looks\n\n### Screenshots\n\n![Image](https://github.com/user-attachments/assets/88a7e7c0-c7ea-4ba4-b415-b402c4eed815)\n\n### Desktop (please complete the following information)\n\n_No response_\n\n### Smartphone (please complete the following information)\n\n_No response_\n\n### Additional context\n\n_No response_\n\n### Would you like to work on this issue?\n\n- [ ] Yes\n- [x] No",
+      "url": "https://github.com/ethereum/ethereum-org-website/issues/15231",
+      "createdAt": 1743687600000,
+      "updatedAt": 1745948256000,
+      "author": {
+        "id": "U_kgDOBgDuBw",
+        "login": "konopkja",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/100724231?u=9f8f02f877c7d0622becb1d8e36c5cd6272dd086&v=4",
+        "url": "https://github.com/konopkja"
+      },
+      "comments": {
+        "totalCount": 5
+      },
+      "labels": [
+        {
+          "name": "bug 🐛",
+          "color": "ee0701"
+        },
+        {
+          "name": "good first issue",
+          "color": "6C5DF6"
+        },
+        {
+          "name": "dev required",
+          "color": "90AE07"
+        }
+      ],
+      "repository": {
+        "id": "MDEwOlJlcG9zaXRvcnkxMTY0NTc3MjY=",
+        "name": "ethereum-org-website",
+        "nameWithOwner": "ethereum/ethereum-org-website",
+        "description": "Ethereum.org is a primary online resource for the Ethereum community.",
+        "stargazerCount": 5372,
+        "forkCount": 5077,
+        "primaryLanguage": {
+          "name": "Markdown",
+          "color": "#083fa1"
+        },
+        "url": "https://github.com/ethereum/ethereum-org-website",
+        "createdAt": "2018-01-06T05:54:37Z",
+        "updatedAt": "2025-05-20T05:51:09Z",
+        "pushedAt": "2025-05-20T14:13:03Z",
+        "owner": {
+          "id": "MDEyOk9yZ2FuaXphdGlvbjYyNTA3NTQ=",
+          "login": "ethereum",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/6250754?v=4",
+          "url": "https://github.com/ethereum"
+        }
+      },
+      "commentsCount": 5
+    },
+    {
+      "id": "I_kwDOBvEA_s6w-UO6",
+      "number": 15227,
+      "title": "Update content on /social-networks page",
+      "body": "### Context\nOn the [Decentralized social networks](https://ethereum.org/en/social-networks/) use case page, the section \"[Web2 Social Networks on Ethereum](https://ethereum.org/en/social-networks/#web2-social-networks-and-ethereum)\" needs an update. \n\nReddit discontinued its Community Points feature over a year ago ([see source](https://techcrunch.com/2023/10/17/reddit-is-phasing-out-community-points-blockchain-rewards/)), so this section should be revised accordingly.\n\n### Task\nReplace the Reddit section with another example of a Web2 social network that utilizes Ethereum and/or any Layer 2 network.\n\nFeel free to make additional improvements to other parts of the article if needed!\n\n### Note\nThis is a beginner-friendly task! Once you express interest in working on it, we'll assign you to the issue on GitHub. You can then submit your text replacement suggestion via comments.\n\nAfter your suggestion is approved, we can guide you through submitting a PR. Alternatively, if you'd prefer, another contributor can handle the PR submission using your suggested amendments.",
+      "url": "https://github.com/ethereum/ethereum-org-website/issues/15227",
+      "createdAt": 1743676621000,
+      "updatedAt": 1747469174000,
+      "author": {
+        "id": "U_kgDOByOipQ",
+        "login": "isabelladebrito",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/119775909?u=b9039a2d524b32727119e1d59d994b46f1ce053d&v=4",
+        "url": "https://github.com/isabelladebrito"
+      },
+      "comments": {
+        "totalCount": 7
+      },
+      "labels": [
+        {
+          "name": "content 🖋️",
+          "color": "70e855"
+        },
+        {
+          "name": "good first issue",
+          "color": "6C5DF6"
+        }
+      ],
+      "repository": {
+        "id": "MDEwOlJlcG9zaXRvcnkxMTY0NTc3MjY=",
+        "name": "ethereum-org-website",
+        "nameWithOwner": "ethereum/ethereum-org-website",
+        "description": "Ethereum.org is a primary online resource for the Ethereum community.",
+        "stargazerCount": 5372,
+        "forkCount": 5077,
+        "primaryLanguage": {
+          "name": "Markdown",
+          "color": "#083fa1"
+        },
+        "url": "https://github.com/ethereum/ethereum-org-website",
+        "createdAt": "2018-01-06T05:54:37Z",
+        "updatedAt": "2025-05-20T05:51:09Z",
+        "pushedAt": "2025-05-20T14:13:03Z",
+        "owner": {
+          "id": "MDEyOk9yZ2FuaXphdGlvbjYyNTA3NTQ=",
+          "login": "ethereum",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/6250754?v=4",
+          "url": "https://github.com/ethereum"
+        }
+      },
+      "commentsCount": 7
+    },
+    {
+      "id": "I_kwDODgt-Gc6uNCE3",
+      "number": 372,
+      "title": "Create CI to make sure json-rpc spec's json is properly formatted and a makefile script which formats the files properly",
+      "body": "https://github.com/ethereum/portal-network-specs/pull/369#discussion_r1997285499\n\nWe want a \n- CI which verifies if the json-rpc spec files are formatted correctly\n- A makefile command which formats the json-rpc spec's files in the correct format, so if CI fails the problem can be easily fixed.",
+      "url": "https://github.com/ethereum/portal-network-specs/issues/372",
+      "createdAt": 1742083787000,
+      "updatedAt": 1742083787000,
+      "author": {
+        "id": "MDQ6VXNlcjMxNjY5MDky",
+        "login": "KolbyML",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/31669092?u=651e341d0c18f5c6d66cf9d6d5accf359a7eaabf&v=4",
+        "url": "https://github.com/KolbyML"
+      },
+      "comments": {
+        "totalCount": 0
+      },
+      "labels": [
+        {
+          "name": "good first issue",
+          "color": "7057ff"
+        }
+      ],
+      "repository": {
+        "id": "MDEwOlJlcG9zaXRvcnkyMzU2MzQyMDE=",
+        "name": "portal-network-specs",
+        "nameWithOwner": "ethereum/portal-network-specs",
+        "description": "Official repository for specifications for the Portal Network",
+        "stargazerCount": 341,
+        "forkCount": 93,
+        "primaryLanguage": {
+          "name": "JavaScript",
+          "color": "#f1e05a"
+        },
+        "url": "https://github.com/ethereum/portal-network-specs",
+        "createdAt": "2020-01-22T18:08:10Z",
+        "updatedAt": "2025-05-15T22:20:31Z",
+        "pushedAt": "2025-05-20T14:34:45Z",
+        "owner": {
+          "id": "MDEyOk9yZ2FuaXphdGlvbjYyNTA3NTQ=",
+          "login": "ethereum",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/6250754?v=4",
+          "url": "https://github.com/ethereum"
+        }
+      },
+      "commentsCount": 0
+    },
+    {
+      "id": "I_kwDOBvEA_s6tutyh",
+      "number": 15092,
+      "title": "Update all testnet references, removing those deprecated",
+      "body": "## Issue\nGoerli (Görli), Ropsten, Rinkeby testnets are all deprecated, and remaining references to these should be removed.\n\nOf note, some tutorials still reference these. Open for discussion on an individual basis how to handle these, but ideally these are updated to use the Sepolia testnet.\n\n\n## Tasks\n- Remove all remaining non-tutorial references to Goerli (Görli), Ropsten, Rinkeby\n- Update any tutorial mentions to use Sepolia; or remove entire tutorial if fully dependent upon a deprecated testnet\n- Update any use of \"Holesovice\" to use \"Holesky\" naming instead\n\n## Contribute\nPlease comment for assignment if you'd like to work on this, thanks!\n",
+      "url": "https://github.com/ethereum/ethereum-org-website/issues/15092",
+      "createdAt": 1741801149000,
+      "updatedAt": 1746678170000,
+      "author": {
+        "id": "MDQ6VXNlcjU0MjI3NzMw",
+        "login": "wackerow",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54227730?u=d309b39e7724bff546ce919e209cb06f440a8fe8&v=4",
+        "url": "https://github.com/wackerow"
+      },
+      "comments": {
+        "totalCount": 13
+      },
+      "labels": [
+        {
+          "name": "help wanted",
+          "color": "206699"
+        },
+        {
+          "name": "good first issue",
+          "color": "6C5DF6"
+        }
+      ],
+      "repository": {
+        "id": "MDEwOlJlcG9zaXRvcnkxMTY0NTc3MjY=",
+        "name": "ethereum-org-website",
+        "nameWithOwner": "ethereum/ethereum-org-website",
+        "description": "Ethereum.org is a primary online resource for the Ethereum community.",
+        "stargazerCount": 5372,
+        "forkCount": 5077,
+        "primaryLanguage": {
+          "name": "Markdown",
+          "color": "#083fa1"
+        },
+        "url": "https://github.com/ethereum/ethereum-org-website",
+        "createdAt": "2018-01-06T05:54:37Z",
+        "updatedAt": "2025-05-20T05:51:09Z",
+        "pushedAt": "2025-05-20T14:13:03Z",
+        "owner": {
+          "id": "MDEyOk9yZ2FuaXphdGlvbjYyNTA3NTQ=",
+          "login": "ethereum",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/6250754?v=4",
+          "url": "https://github.com/ethereum"
+        }
+      },
+      "commentsCount": 13
+    },
+    {
+      "id": "I_kwDOBvEA_s6qfeIm",
+      "number": 14929,
+      "title": "Add Family Wallet",
+      "body": "### Wallet name\n\nFamily\n\n### What type of wallet?\n\nEOA\n\n### Wallet description\n\nFamily is the perfect self-custody Ethereum wallet for those who want to keep their crypto close to home. With Family, you can easily send and receive tokens, as well as manage your favorite digital collectibles. Plus, our user-friendly interface makes it easy for anyone to get started with crypto. So whether you're a beginner or a seasoned pro, Family is the perfect wallet for you.\n\n### Wallet logo\n\n![Image](https://github.com/user-attachments/assets/823eea35-6807-4928-b1f3-8faa430bd561)\n\n### Background color for brand logo\n\n#ffffff\n\n### URL to the project\n\nfamily.co\n\n### When did the wallet go live to users?\n\nDecember 2022\n\n### What are the fees users may be paying for using your wallet product?\n\nThere are no service fees. \n\n### Does the wallet have an active development team?\n\nYes. \n\n### Is the wallet globally accessible?\n\nhttps://github.com/family\n\n### Is the wallet available in multiple languages?\n\nNo, just English\n\n### What social links are there for the project?\n\nhttps://x.com/family\n\n### Does the wallet have a mobile app? If yes, which operating systems are supported (iOS, Android)?\n\niOS only \n\n### Does the wallet have a desktop app? If yes, which operating systems are supported (Windows, Mac, Linux)?\n\nNo\n\n### Does the wallet have a browser extension? If yes, which browsers are supported (Chromium, Firefox, Safari)?\n\nNo\n\n### Is it a hardware wallet?\n\nNo\n\n### What is the availability of your source code?\n\nClosed source\n\n### What license is the wallet software released under?\n\nBSD 2-Clause \"Simplified\" License\n\n### Who holds the private keys?\n\nThe wallet is self custodial.\n\n### Please describe the measures taken to ensure the wallet's security and provide documentation wherever possible\n\nAudit https://family.co/media/family-wallet-audit-report-2024.pdf\n\n### Has the wallet's smart contract code or security modules been audited?\n\nIt does not have smart contract code\n\n### Does the wallet have an internal security team?\n\nYes \n\n### Any other security testing that should be noted?\n\nFamily is tested consistently by the Avara internal security team.\nFamily also uses Tenderly for simulations, transaction analysis and Blockaid for dapp scanning and token scanning.\n\n### Scam protection?\n\nFamily also Tenderly for simulations, transaction analysis, and Blockaid for dapp scanning and token scanning.\n\n### Does the wallet support connecting to Ethereum applications?\n\nYes via Wallet Connect, and through Connect Kit (developed in-house)\n\n### Does the wallet support connecting to a hardware wallet?\n\nNo\n\n### Does the wallet support importing Ethereum RPC endpoints?\n\nNo\n\n### Does the wallet support viewing and interacting with NFTs?\n\nYes\n\n### Does the wallet support staking directly?\n\nNo\n\n### Does the wallet support swaps directly?\n\nYes (https://family.co/support/swap-tokens)\n\n### Does the wallet support bridging directly?\n\nNo \n\n### Does the wallet support multi-chain networks?\n\nYes - Ethereum and L2s\n\n### Which Ethereum Layer 2 networks does the wallet support?\n\nEthereum, Optimism, ZKsync, Base, Blast, Scroll, World Chain, Arbitrum\n\n### Does the wallet allow the user to customize gas fees?\n\nYes (https://family.co/support/speed-up-a-transaction)\n\n### Does the wallet support sending transactions to ENS addresses?\n\nYes\n\n### Does the wallet support importing or automatically querying and displaying ERC-20 tokens?\n\nNo\n\n### Does the wallet support EIP-1559 (type 2) transactions?\n\nYes\n\n### Does the wallet have any recovery options?\n\nFamily offers various ways for back-ups including the [in-house built Pocket](https://family.co/support/pocket), which allows you to manage various wallets, create encrypted back-ups, etc. \niCloud back-up is also available.\n\n### Does the wallet have fiat on-ramps through credit/debit cards, wire transfers, or bank transfers (ACH)?\n\nYes, via Stripe (https://family.co/support/buy-crypto)\n\n### Does the wallet support withdrawals to fiat?\n\nNo\n\n### Is the wallet a multi-signature wallet?\n\nNo\n\n### Does the wallet support social recovery?\n\nNo\n\n### Does the wallet support bundled transactions?\n\nNo\n\n### Who can the ethereum.org team can contact regarding the wallet in future?\n\nMaria Paula Fernandez (mp@avara.xyz)\n\n### Does the wallet have a dedicated support team?\n\nYes, we offer e-mail support. It takes about 5 hours to answer: support@family.co\n\n### What educational resources/documentation do you provide to users?\n\nWe have a comprehensive help center and the app provides education in pop-ups: https://family.co/support\n\n### Does the wallet have any integrated tools not mentioned above?\n\n- MEV protection via Flashbots\n- \"Refuel\" function: quickly top up your gas on all L2s supported\n- Encrypted wallet-to-wallet chat via XMTP\n- View NFTs in media rich format and gallery mode\n- Pocket back-up and onboarding \n- Wallet Groups\n- Browser \n- Approval management\n- Token hide/view functions\n- Spam token filters\n- Stealth mode \n\n### Would you like to work on this issue?\n\n- [x] Yes\n- [ ] No",
+      "url": "https://github.com/ethereum/ethereum-org-website/issues/14929",
+      "createdAt": 1739883366000,
+      "updatedAt": 1745828469000,
+      "author": {
+        "id": "MDQ6VXNlcjI3OTEzNTg5",
+        "login": "mariapaulafn",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/27913589?v=4",
+        "url": "https://github.com/mariapaulafn"
+      },
+      "comments": {
+        "totalCount": 18
+      },
+      "labels": [
+        {
+          "name": "Status: Stale",
+          "color": "eacc8f"
+        },
+        {
+          "name": "good first issue",
+          "color": "6C5DF6"
+        },
+        {
+          "name": "wallet 👛",
+          "color": "0983DF"
+        },
+        {
+          "name": "dev required",
+          "color": "90AE07"
+        },
+        {
+          "name": "product 🧰",
+          "color": "fef2c0"
+        }
+      ],
+      "repository": {
+        "id": "MDEwOlJlcG9zaXRvcnkxMTY0NTc3MjY=",
+        "name": "ethereum-org-website",
+        "nameWithOwner": "ethereum/ethereum-org-website",
+        "description": "Ethereum.org is a primary online resource for the Ethereum community.",
+        "stargazerCount": 5372,
+        "forkCount": 5077,
+        "primaryLanguage": {
+          "name": "Markdown",
+          "color": "#083fa1"
+        },
+        "url": "https://github.com/ethereum/ethereum-org-website",
+        "createdAt": "2018-01-06T05:54:37Z",
+        "updatedAt": "2025-05-20T05:51:09Z",
+        "pushedAt": "2025-05-20T14:13:03Z",
+        "owner": {
+          "id": "MDEyOk9yZ2FuaXphdGlvbjYyNTA3NTQ=",
+          "login": "ethereum",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/6250754?v=4",
+          "url": "https://github.com/ethereum"
+        }
+      },
+      "commentsCount": 18
+    },
+    {
+      "id": "I_kwDOBvEA_s6oKS24",
+      "number": 14777,
+      "title": "Bug report: update link on stablecoin page",
+      "body": "### Describe the bug\n\non https://ethereum.org/en/stablecoins/ there is an old link to \"Gitcoin bounties\" which has been since then rebranded to Buidlbox.\n\npls replace link and icon with updated versions\n\nNew url: https://app.buidlbox.io/\n\n### To reproduce\n\n1. Go to https://ethereum.org/en/stablecoins/\n2. Scroll down to \"How to get stablecoins\"\n3. Click on \"Earn\n4. See error\n\n![Image](https://github.com/user-attachments/assets/3acd716e-8be2-470d-8a0a-d4536c86865e)\n\n### Expected behavior\n\nreplace invalid url with new one: https://app.buidlbox.io/\n\nreplace old gitcoin icon with new branding\n\n### Screenshots\n\n_No response_\n\n### Desktop (please complete the following information)\n\n_No response_\n\n### Smartphone (please complete the following information)\n\n_No response_\n\n### Additional context\n\n_No response_\n\n### Would you like to work on this issue?\n\n- [ ] Yes\n- [x] No",
+      "url": "https://github.com/ethereum/ethereum-org-website/issues/14777",
+      "createdAt": 1738254355000,
+      "updatedAt": 1741248396000,
+      "author": {
+        "id": "U_kgDOBgDuBw",
+        "login": "konopkja",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/100724231?u=9f8f02f877c7d0622becb1d8e36c5cd6272dd086&v=4",
+        "url": "https://github.com/konopkja"
+      },
+      "comments": {
+        "totalCount": 5
+      },
+      "labels": [
+        {
+          "name": "bug 🐛",
+          "color": "ee0701"
+        },
+        {
+          "name": "Status: Stale",
+          "color": "eacc8f"
+        },
+        {
+          "name": "good first issue",
+          "color": "6C5DF6"
+        }
+      ],
+      "repository": {
+        "id": "MDEwOlJlcG9zaXRvcnkxMTY0NTc3MjY=",
+        "name": "ethereum-org-website",
+        "nameWithOwner": "ethereum/ethereum-org-website",
+        "description": "Ethereum.org is a primary online resource for the Ethereum community.",
+        "stargazerCount": 5372,
+        "forkCount": 5077,
+        "primaryLanguage": {
+          "name": "Markdown",
+          "color": "#083fa1"
+        },
+        "url": "https://github.com/ethereum/ethereum-org-website",
+        "createdAt": "2018-01-06T05:54:37Z",
+        "updatedAt": "2025-05-20T05:51:09Z",
+        "pushedAt": "2025-05-20T14:13:03Z",
+        "owner": {
+          "id": "MDEyOk9yZ2FuaXphdGlvbjYyNTA3NTQ=",
+          "login": "ethereum",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/6250754?v=4",
+          "url": "https://github.com/ethereum"
+        }
+      },
+      "commentsCount": 5
+    },
+    {
+      "id": "I_kwDOIQGLK86ne47T",
+      "number": 1125,
+      "title": "Improve documentation on `consume`",
+      "body": "At the moment, the only information we provide about the command is in the `--help` flag of the command itself.\n\nWe could add a subsection to the [\"Consuming Tests\"](https://ethereum.github.io/execution-spec-tests/main/consuming_tests/) section of the documentation, including:\n- What is consume.\n- When should it be used.\n- How to use it.\n- Examples and hive considerations (namely, the `--dev` mode and the `--client-config` flag).",
+      "url": "https://github.com/ethereum/execution-spec-tests/issues/1125",
+      "createdAt": 1737737560000,
+      "updatedAt": 1738160549000,
+      "author": {
+        "id": "MDQ6VXNlcjExNzI2NzEw",
+        "login": "marioevz",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11726710?v=4",
+        "url": "https://github.com/marioevz"
+      },
+      "comments": {
+        "totalCount": 3
+      },
+      "labels": [
+        {
+          "name": "good first issue",
+          "color": "7057ff"
+        },
+        {
+          "name": "scope:consume",
+          "color": "F5AF46"
+        }
+      ],
+      "repository": {
+        "id": "R_kgDOIQGLKw",
+        "name": "execution-spec-tests",
+        "nameWithOwner": "ethereum/execution-spec-tests",
+        "description": "A Python framework and collection of test cases to generate test vectors for Ethereum execution clients",
+        "stargazerCount": 144,
+        "forkCount": 133,
+        "primaryLanguage": {
+          "name": "Python",
+          "color": "#3572A5"
+        },
+        "url": "https://github.com/ethereum/execution-spec-tests",
+        "createdAt": "2022-10-18T17:52:59Z",
+        "updatedAt": "2025-05-20T14:01:11Z",
+        "pushedAt": "2025-05-20T14:11:12Z",
+        "owner": {
+          "id": "MDEyOk9yZ2FuaXphdGlvbjYyNTA3NTQ=",
+          "login": "ethereum",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/6250754?v=4",
+          "url": "https://github.com/ethereum"
+        }
+      },
+      "commentsCount": 3
+    },
+    {
+      "id": "I_kwDOBvEA_s6mV-h0",
+      "number": 14689,
+      "title": "Bug report: tutorials do not appear in other languages",
+      "body": "### Describe the bug\n\nThe ethereum.org website is translated into many languages. When selecting other than English language (eg Czech), the tutorials page should show either translated tutorials OR if there are none, show the english ones instead.\n\nBut right now it doesnt show any.\n\nIf the language doesnt have any translated tutorials, the website is supposed to show the English tutorials instead.\n\n### To reproduce\n\n1. Go to https://ethereum.org/cs/developers/tutorials/\n2. See error\n\n\n### Expected behavior\n\nshow tutorials in english\n\n### Screenshots\n\n_No response_\n\n### Desktop (please complete the following information)\n\n_No response_\n\n### Smartphone (please complete the following information)\n\n_No response_\n\n### Additional context\n\n_No response_\n\n### Would you like to work on this issue?\n\n- [ ] Yes\n- [x] No",
+      "url": "https://github.com/ethereum/ethereum-org-website/issues/14689",
+      "createdAt": 1736972350000,
+      "updatedAt": 1747208783000,
+      "author": {
+        "id": "U_kgDOBgDuBw",
+        "login": "konopkja",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/100724231?u=9f8f02f877c7d0622becb1d8e36c5cd6272dd086&v=4",
+        "url": "https://github.com/konopkja"
+      },
+      "comments": {
+        "totalCount": 8
+      },
+      "labels": [
+        {
+          "name": "bug 🐛",
+          "color": "ee0701"
+        },
+        {
+          "name": "good first issue",
+          "color": "6C5DF6"
+        }
+      ],
+      "repository": {
+        "id": "MDEwOlJlcG9zaXRvcnkxMTY0NTc3MjY=",
+        "name": "ethereum-org-website",
+        "nameWithOwner": "ethereum/ethereum-org-website",
+        "description": "Ethereum.org is a primary online resource for the Ethereum community.",
+        "stargazerCount": 5372,
+        "forkCount": 5077,
+        "primaryLanguage": {
+          "name": "Markdown",
+          "color": "#083fa1"
+        },
+        "url": "https://github.com/ethereum/ethereum-org-website",
+        "createdAt": "2018-01-06T05:54:37Z",
+        "updatedAt": "2025-05-20T05:51:09Z",
+        "pushedAt": "2025-05-20T14:13:03Z",
+        "owner": {
+          "id": "MDEyOk9yZ2FuaXphdGlvbjYyNTA3NTQ=",
+          "login": "ethereum",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/6250754?v=4",
+          "url": "https://github.com/ethereum"
+        }
+      },
+      "commentsCount": 8
+    },
+    {
+      "id": "I_kwDOCusnus6j4i4S",
+      "number": 1792,
+      "title": "Add \"Remix Verification\" section to the Blockscout docs",
+      "body": "We can add the documentation to their docs since the new plugin covers all verifiers \n\nhttps://github.com/blockscout/docs/tree/master/devs/verification",
+      "url": "https://github.com/ethereum/sourcify/issues/1792",
+      "createdAt": 1734594200000,
+      "updatedAt": 1747656719000,
+      "author": {
+        "id": "MDQ6VXNlcjEzMDY5OTcy",
+        "login": "kuzdogan",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13069972?u=026ff4eade3b02c5d4810551aa390b58d439ec46&v=4",
+        "url": "https://github.com/kuzdogan"
+      },
+      "comments": {
+        "totalCount": 2
+      },
+      "labels": [
+        {
+          "name": "good first issue",
+          "color": "006b75"
+        },
+        {
+          "name": "remix plugin",
+          "color": "BFDADC"
+        }
+      ],
+      "repository": {
+        "id": "MDEwOlJlcG9zaXRvcnkxODMxODMyOTA=",
+        "name": "sourcify",
+        "nameWithOwner": "ethereum/sourcify",
+        "description": "Source code verification service for Ethereum smart contracts",
+        "stargazerCount": 843,
+        "forkCount": 459,
+        "primaryLanguage": {
+          "name": "TypeScript",
+          "color": "#3178c6"
+        },
+        "url": "https://github.com/ethereum/sourcify",
+        "createdAt": "2019-04-24T08:23:22Z",
+        "updatedAt": "2025-05-20T12:48:11Z",
+        "pushedAt": "2025-05-20T12:57:25Z",
+        "owner": {
+          "id": "MDEyOk9yZ2FuaXphdGlvbjYyNTA3NTQ=",
+          "login": "ethereum",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/6250754?v=4",
+          "url": "https://github.com/ethereum"
+        }
+      },
+      "commentsCount": 2
+    },
+    {
+      "id": "I_kwDOIQGLK86i9cI5",
+      "number": 1016,
+      "title": "Easy to convert test from ethereum/tests ",
+      "body": "Following are the tests that are relatively easy to convert while also allowing to convert a large number of files from the tests repo in one go:\r\n\r\n#### Random tests\r\n[stRandom](https://github.com/ethereum/tests/tree/develop/src/GeneralStateTestsFiller/stRandom)\r\n[stRandom2](https://github.com/ethereum/tests/tree/develop/src/GeneralStateTestsFiller/stRandom2)\r\nIn random tests need to look at the vm trace. Really are triggered like 5-6 cases of vm exceptions\r\nI think it is enough to create minimum set of instructions that trigger the same vm exception. 1 per test.\r\nMany tests just repeat itself. \r\n\r\n#### Zero knowledge \r\n[stZeroKnowledge](https://github.com/ethereum/tests/tree/develop/src/GeneralStateTestsFiller/stZeroKnowledge)\r\n[stZeroKnowledge2](https://github.com/ethereum/tests/tree/develop/src/GeneralStateTestsFiller/stZeroKnowledge2)\r\nMost tests from this folders are really just vectors for the precompiles. It is a base template with many parametrisation vectors.\r\n\r\n#### Precompiled contracts\r\n[stPreCompiledContracts1](https://github.com/ethereum/tests/tree/develop/src/GeneralStateTestsFiller/stPreCompiledContracts1)\r\n[stPreCompiledContracts2](https://github.com/ethereum/tests/tree/develop/src/GeneralStateTestsFiller/stPreCompiledContracts2)\r\nThis are basically vectors to test the precompiles. should be easy to convert. \r\n\r\n\r\n#### Quadratic complexity folder\r\n[stQuadraticComplexityTest](https://github.com/ethereum/tests/tree/develop/src/GeneralStateTestsFiller/stQuadraticComplexityTest)\r\nThis must be not really quadratic complexity but the stress tests that call something many times. Easy to convert.\r\n\r\n#### Storage overwrite combinations\r\n[stSStoreTest](https://github.com/ethereum/tests/tree/develop/src/GeneralStateTestsFiller/stSStoreTest)\r\nThis tests mainly verify the gas usage of storage touch situations   x to 0, 0 to x, x to x, 0 to 0  and so on. \r\nAnd refunds to when we x to 0, or 0 to x to 0.\r\nThis can be extended to also verify tstore in the same manner. \r\n\r\n#### TimeConsuming tests\r\n[stTimeConsuming](https://github.com/ethereum/tests/tree/develop/src/GeneralStateTestsFiller/stTimeConsuming)\r\nNeed to revisit this test logic, but as far as I remember that are basically also storage overwrite/refund combinations. \r\nIt is one template with many-many-many vector combinations. can really shrink down in python in code. \r\n\r\n#### stWalletTest\r\n[stWalletTest](https://github.com/ethereum/tests/tree/develop/src/GeneralStateTestsFiller/stWalletTest)\r\nThis are legacy tests. those are actually ever first DAO tests if I am not mistaken. this does not test much of evm, but a smart contract. we can decide if we want to drop it or keep it. can be just converted as is. but sometimes I saw this tests breaking with the protocol development, so maybe they have something. \r\n\r\n#### Call Combinations Interuptions\r\n[stCallCodes](https://github.com/ethereum/tests/tree/develop/src/GeneralStateTestsFiller/stCallCodes)\r\n[stCallDelegateCodesCallCodeHomestead](https://github.com/ethereum/tests/tree/develop/src/GeneralStateTestsFiller/stCallDelegateCodesCallCodeHomestead)\r\n[stCallDelegateCodesHomestead](https://github.com/ethereum/tests/tree/develop/src/GeneralStateTestsFiller/stCallDelegateCodesHomestead)\r\n\r\nHere all tests are basically the same template. we take [calltype] -> C1 -> [calltype2] -> C2 -> [calltype3] -> C3\r\nwhere calltype are all possible call opcodes. and C1, C2, C3 contracts are recording the context opcodes results like origin, selfbalance, address and so on.  then at some point can happen a revert by  REVERT, OOG,  and this revert can happen at C1 or C2 or C3   so really here are just \r\n\r\nfor all calltypes\r\nfor all oogtypes\r\nfor all oogposition\r\n[calltype] -> C1 -> [calltype2] -> C2 -> [calltype3] -> C3\r\n\r\nthe type of call changes the result of context opcodes. and reverts are removing the subcall changes. so it creates interesting situations where we can see what are the values of context opcodes, which contract they are recorded to and was it really reverted when OOG* happened. \r\n\r\n#### Gas Prices\r\n[stEIP150singleCodeGasPrices](https://github.com/ethereum/tests/tree/develop/src/GeneralStateTestsFiller/stEIP150singleCodeGasPrices)\r\nHere I have some ideas. this a basic test to measure gas price of some atomic evm operations. what we really need is to have a gas schedule map in python defined for each fork. and then we test on each fork that that schedule is really what external evm charges. \r\n\r\nby schedule I mean.  intrinsic transaction gas, intrinsic call operation gas,  storage access gas, hot address / call address call, base opcode gas price (I think already covered but without the schedule), memory expansion gas price formulas and so on. so here a little more work. ",
+      "url": "https://github.com/ethereum/execution-spec-tests/issues/1016",
+      "createdAt": 1733950942000,
+      "updatedAt": 1733952391000,
+      "author": {
+        "id": "MDQ6VXNlcjQ0OTIzNDE=",
+        "login": "winsvega",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4492341?u=e0ace1d74338b89507c4be570e7190d6a66ec3b9&v=4",
+        "url": "https://github.com/winsvega"
+      },
+      "comments": {
+        "totalCount": 0
+      },
+      "labels": [
+        {
+          "name": "good first issue",
+          "color": "7057ff"
+        }
+      ],
+      "repository": {
+        "id": "R_kgDOIQGLKw",
+        "name": "execution-spec-tests",
+        "nameWithOwner": "ethereum/execution-spec-tests",
+        "description": "A Python framework and collection of test cases to generate test vectors for Ethereum execution clients",
+        "stargazerCount": 144,
+        "forkCount": 133,
+        "primaryLanguage": {
+          "name": "Python",
+          "color": "#3572A5"
+        },
+        "url": "https://github.com/ethereum/execution-spec-tests",
+        "createdAt": "2022-10-18T17:52:59Z",
+        "updatedAt": "2025-05-20T14:01:11Z",
+        "pushedAt": "2025-05-20T14:11:12Z",
+        "owner": {
+          "id": "MDEyOk9yZ2FuaXphdGlvbjYyNTA3NTQ=",
+          "login": "ethereum",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/6250754?v=4",
+          "url": "https://github.com/ethereum"
+        }
+      },
+      "commentsCount": 0
+    },
+    {
+      "id": "I_kwDOCusnus6gjrPt",
+      "number": 1753,
+      "title": "Ethers.js SourcifyProvider",
+      "body": "In the [Devcon video](https://youtu.be/zjApYb3mtAg?t=889) of Ethers.js the EtherscanProvider was demonstrated which can fetch the ABI and source code. In the questions someone asks if this is possible for Sourcify too. We should have a look at the EtherscanProvider functionality and potentially ask for (or open a PR for) the same functionality with Sourcify.",
+      "url": "https://github.com/ethereum/sourcify/issues/1753",
+      "createdAt": 1732610394000,
+      "updatedAt": 1745932065000,
+      "author": {
+        "id": "MDQ6VXNlcjEzMDY5OTcy",
+        "login": "kuzdogan",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13069972?u=026ff4eade3b02c5d4810551aa390b58d439ec46&v=4",
+        "url": "https://github.com/kuzdogan"
+      },
+      "comments": {
+        "totalCount": 0
+      },
+      "labels": [
+        {
+          "name": "good first issue",
+          "color": "006b75"
+        }
+      ],
+      "repository": {
+        "id": "MDEwOlJlcG9zaXRvcnkxODMxODMyOTA=",
+        "name": "sourcify",
+        "nameWithOwner": "ethereum/sourcify",
+        "description": "Source code verification service for Ethereum smart contracts",
+        "stargazerCount": 843,
+        "forkCount": 459,
+        "primaryLanguage": {
+          "name": "TypeScript",
+          "color": "#3178c6"
+        },
+        "url": "https://github.com/ethereum/sourcify",
+        "createdAt": "2019-04-24T08:23:22Z",
+        "updatedAt": "2025-05-20T12:48:11Z",
+        "pushedAt": "2025-05-20T12:57:25Z",
+        "owner": {
+          "id": "MDEyOk9yZ2FuaXphdGlvbjYyNTA3NTQ=",
+          "login": "ethereum",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/6250754?v=4",
+          "url": "https://github.com/ethereum"
+        }
+      },
+      "commentsCount": 0
+    },
+    {
+      "id": "I_kwDOIQGLK86geQkt",
+      "number": 972,
+      "title": "feat(tests): port ethereum/tests test cases (tracking issue)",
+      "body": "This is a top-level issue for tracking the manual porting of ethereum/tests test cases to execution-spec-tests:\r\n\r\n> **Contributions to manually port individual test cases are very welcome!**\r\n\r\n**If you're already familiar with ethereum/tests and execution-spec-tests, jump to the issue tracker below!**\r\n\r\n#### Background\r\n[ethereum/tests](https://github.com/ethereum/tests) was the repository used to define EVM test cases from [Frontier](https://ethereum.org/en/history/#frontier) up to and including [The Merge](https://ethereum.org/en/history/#paris). The test cases are defined as YAML (and sometimes JSON) files in the [./src/ sub-directory](https://github.com/ethereum/tests/tree/develop/src) and the JSON \"test fixtures\" (fully-populated tests that can be executed against clients) are generated using [ethereum/retesteth](https://github.com/ethereum/retesteth). These JSON artifacts are regenerated when required and added to the repository, for example, in the [./GeneralStateTests/ sub-directory](https://github.com/ethereum/tests/tree/develop/GeneralStateTests).\r\n\r\nFrom [Shanghai](https://ethereum.org/en/history/#shapella) on, new test cases (in particular for new features included in hard-forks) have been defined in Python in this repository (execution-spec-tests). The existing test cases are still important to execute against clients, however, and porting ethereum/tests to execution-spec-tests ensures that the test cases can be continually maintained and filled (generated) for newer forks. It also has the advantage that client teams will only need to obtain test fixture releases from one source.\r\n\r\n#### Automated Port to Python\r\nAlthough there will be an effort to automate (\"transpile\") the remaining test cases from YAML (respectively JSON) to Python; contributions to manually port individual test cases can be very beneficial and are welcome! \r\n\r\nThe benefits of manual porting are:\r\n1. Reduce the number of test cases by combing multiple YAML (resp. JSON) test cases in one Python test function (via parametrization).\r\n2. Potentially improve coverage by parametrizing the Python version.\r\n3. Code/docstrings are likely higher quality than an automated conversion.\r\n4. The test can be better [organized within the `./tests` folder](https://ethereum.github.io/execution-spec-tests/main/writing_tests/adding_a_new_test/) in execution-spec-tests by the fork and the EIP in which the functionality was introduced.\r\n\r\n#### Process\r\n1. Pick a single or a set of YAML test cases in ethereum/tests to port and create an issue in this repository - optional, but definitely recommended if porting tests from the tracker below to avoid duplicate work.\r\n2. Create a PR with the ported tests:\r\n    a. Add the list of ported YAML files to [converted-ethereum-tests.txt](https://github.com/ethereum/execution-spec-tests/blob/1b30c336eae6b0746ea4db441ac74406f2fb2322/converted-ethereum-tests.txt).\r\n    b. If the tests can't currently be filled, please explain the issue (feel free to also [open a Discussion](https://github.com/ethereum/execution-spec-tests/discussions/new?category=general)).\r\n\r\n#### Help with ethereum/tests\r\n\r\nThe test formats are described in the [ethereum/tests online docs](https://ethereum-tests.readthedocs.io/en/latest/blockchain-ref.html). Note that state filler test cases in YAML can be parametrized, see the [docs here](https://ethereum-tests.readthedocs.io/en/latest/test_filler/state_filler.html#the-indexes).\r\n\r\n#### Hints to Get Started with ethereum/execution-spec-tests\r\n\r\n0. Start here: [Getting Started → Installation](https://ethereum.github.io/execution-spec-tests/main/getting_started/installation/).\r\n1. Use `uv run et make test` to create a template test module (currently a WIP in #950).\r\n2. Where to put the test? See how tests are organized in [Writing Tests → Adding a New Test](https://ethereum.github.io/execution-spec-tests/main/writing_tests/adding_a_new_test/).\r\n3. State vs Blockchain test? If in doubt try to write a state test, see [Writing Tests → Types of Tests → Deciding on a Test Type](https://ethereum.github.io/execution-spec-tests/main/writing_tests/types_of_tests/#deciding-on-a-test-type).\r\n4. Tests are filled via EELS by default (no further installation necessary; it's a Python dependency and got installed in Step 0), see [Filling  → Getting Started](https://ethereum.github.io/execution-spec-tests/main/filling_tests/getting_started/).\r\n5. Parametrizing test functions is encouraged, see [Writing Tests → Writing a New Test → Parametrizing Tests](https://ethereum.github.io/execution-spec-tests/main/writing_tests/writing_a_new_test/#parametrizing-tests).\r\n6. The Opcode mini-lang defined in this repository is the preferred way to define bytecode in tests (if feasible). For a very simple example, see [`test_chainid()`](https://github.com/ethereum/execution-spec-tests/blob/85393456e75f5f3b476cb5e61c35d48172f9d543/tests/istanbul/eip1344_chainid/test_chainid.py#L28) - there are other examples in the tests.\r\n\r\nFeel free to reach out for help or guidance in the Ethereum R&D discord or via DM; see [Getting Help](https://ethereum.github.io/execution-spec-tests/main/getting_started/getting_help/) in the docs.\r\n\r\n```[tasklist]\r\n### Test Cases\r\n- [ ] Add test cases for any single opcode (porting an entire test case from ethereum/tests can be overwhelming; instead add your own test cases for a single opcode from https://www.evm.codes/).\r\n- [x] [src/GeneralStateTestsFiller/VMTests/vmTests](https://github.com/ethereum/tests/tree/develop/src/GeneralStateTestsFiller/VMTests/vmTests) - swapFiller.yml - WIP: ethereum/execution-spec-tests#1012\r\n- [x] [src/GeneralStateTestsFiller/VMTests/vmTests](https://github.com/ethereum/tests/tree/develop/src/GeneralStateTestsFiller/VMTests/vmTests) - dupFiller.yml.\r\n- [x] [src/GeneralStateTestsFiller/VMTests/vmTests](https://github.com/ethereum/tests/tree/develop/src/GeneralStateTestsFiller/VMTests/vmTests) - pushFiller.yml - WIP: ethereum/execution-spec-tests#974\r\n- [ ] [src/GeneralStateTestsFiller/VMTests/vmTests](https://github.com/ethereum/tests/tree/develop/src/GeneralStateTestsFiller/VMTests/vmTests) (Note: DUP already ported).\r\n- [ ] [src/GeneralStateTestsFiller/stLogTests/](https://github.com/ethereum/tests/tree/4f65a0a7cbecf4442415c226c65e089acaaf6a8b/src/GeneralStateTestsFiller/stLogTests).\r\n- [ ] [src/GeneralStateTestsFiller/stRandom](https://github.com/ethereum/tests/tree/develop/src/GeneralStateTestsFiller/stRandom) and [src/GeneralStateTestsFiller/stRandom2](https://github.com/ethereum/tests/tree/develop/src/GeneralStateTestsFiller/stRandom2) (see #1016 for details)\r\n- [ ] [src/GeneralStateTestsFiller/stZeroKnowledge](https://github.com/ethereum/tests/tree/develop/src/GeneralStateTestsFiller/stZeroKnowledge) and [src/GeneralStateTestsFiller/stZeroKnowledge2](https://github.com/ethereum/tests/tree/develop/src/GeneralStateTestsFiller/stZeroKnowledge2) (see #1016 for details)\r\n- [ ] [src/GeneralStateTestsFiller/stPreCompiledContracts1](https://github.com/ethereum/tests/tree/develop/src/GeneralStateTestsFiller/stPreCompiledContracts1) and [src/GeneralStateTestsFiller/stPreCompiledContracts2](https://github.com/ethereum/tests/tree/develop/src/GeneralStateTestsFiller/stPreCompiledContracts2) (see #1016 for details)\r\n- [ ] [src/GeneralStateTestsFiller/stQuadraticComplexityTest](https://github.com/ethereum/tests/tree/develop/src/GeneralStateTestsFiller/stQuadraticComplexityTest) (see #1016 for details)\r\n- [ ] [src/GeneralStateTestsFiller/stSStoreTest](https://github.com/ethereum/tests/tree/develop/src/GeneralStateTestsFiller/stSStoreTest) (see #1016 for details)\r\n- [ ] [src/GeneralStateTestsFiller/stTimeConsuming](https://github.com/ethereum/tests/tree/develop/src/GeneralStateTestsFiller/stTimeConsuming) (see #1016 for details)\r\n- [ ] [src/GeneralStateTestsFiller/stWalletTest](https://github.com/ethereum/tests/tree/develop/src/GeneralStateTestsFiller/stWalletTest) (see #1016 for details)\r\n- [ ] [src/GeneralStateTestsFiller/stCallCodes](https://github.com/ethereum/tests/tree/develop/src/GeneralStateTestsFiller/stCallCodes), [src/GeneralStateTestsFiller/stCallDelegateCodesCallCodeHomestead](https://github.com/ethereum/tests/tree/develop/src/GeneralStateTestsFiller/stCallDelegateCodesCallCodeHomestead) and [src/GeneralStateTestsFiller/stCallDelegateCodesHomestead](https://github.com/ethereum/tests/tree/develop/src/GeneralStateTestsFiller/stCallDelegateCodesHomestead) (see #1016 for details)\r\n- [ ] [src/GeneralStateTestsFiller/stEIP150singleCodeGasPrices](https://github.com/ethereum/tests/tree/develop/src/GeneralStateTestsFiller/stEIP150singleCodeGasPrices) (see #1016 for details)\r\n```\r\n\r\n#### Some Examples of Ported Tests\r\n\r\n| ethereum/tests | ethereum/execution-spec-tests|\r\n|---------------------|------------------------------------------|\r\n| [src/GeneralStateTestsFiller/VMTests/vmTests/dupFiller.yml](https://github.com/ethereum/tests/blob/4f65a0a7cbecf4442415c226c65e089acaaf6a8b/src/GeneralStateTestsFiller/VMTests/vmTests/dupFiller.yml) | [tests/frontier/opcodes/test_dup.py](https://github.com/ethereum/execution-spec-tests/blob/1b30c336eae6b0746ea4db441ac74406f2fb2322/tests/frontier/opcodes/test_dup.py) |\r\n| [GeneralStateTests/stCreate2/call_outsize_then_create2_successful_then_returndatasize.json](https://github.com/ethereum/tests/blob/4f65a0a7cbecf4442415c226c65e089acaaf6a8b/src/GeneralStateTestsFiller/stCreate2/call_outsize_then_create2_successful_then_returndatasizeFiller.json), [GeneralStateTests/stCreate2/call_then_create2_successful_then_returndatasize.json](https://github.com/ethereum/tests/blob/4f65a0a7cbecf4442415c226c65e089acaaf6a8b/src/GeneralStateTestsFiller/stCreate2/call_then_create2_successful_then_returndatasizeFiller.json)| [tests/constantinople/eip1014_create2/test_create_returndata.py](https://github.com/ethereum/execution-spec-tests/blob/1b30c336eae6b0746ea4db441ac74406f2fb2322/tests/constantinople/eip1014_create2/test_create_returndata.py) |",
+      "url": "https://github.com/ethereum/execution-spec-tests/issues/972",
+      "createdAt": 1732570057000,
+      "updatedAt": 1747143447000,
+      "author": {
+        "id": "U_kgDOBXekpw",
+        "login": "danceratopz",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/91727015?u=5f1e41b84f4393c267486cf91702a49f350feb36&v=4",
+        "url": "https://github.com/danceratopz"
+      },
+      "comments": {
+        "totalCount": 12
+      },
+      "labels": [
+        {
+          "name": "good first issue",
+          "color": "7057ff"
+        },
+        {
+          "name": "scope:tests",
+          "color": "A5D897"
+        },
+        {
+          "name": "type:feat",
+          "color": "0e8a16"
+        },
+        {
+          "name": "port",
+          "color": "534E7C"
+        }
+      ],
+      "repository": {
+        "id": "R_kgDOIQGLKw",
+        "name": "execution-spec-tests",
+        "nameWithOwner": "ethereum/execution-spec-tests",
+        "description": "A Python framework and collection of test cases to generate test vectors for Ethereum execution clients",
+        "stargazerCount": 144,
+        "forkCount": 133,
+        "primaryLanguage": {
+          "name": "Python",
+          "color": "#3572A5"
+        },
+        "url": "https://github.com/ethereum/execution-spec-tests",
+        "createdAt": "2022-10-18T17:52:59Z",
+        "updatedAt": "2025-05-20T14:01:11Z",
+        "pushedAt": "2025-05-20T14:11:12Z",
+        "owner": {
+          "id": "MDEyOk9yZ2FuaXphdGlvbjYyNTA3NTQ=",
+          "login": "ethereum",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/6250754?v=4",
+          "url": "https://github.com/ethereum"
+        }
+      },
+      "commentsCount": 12
+    },
+    {
+      "id": "I_kwDOIQGLK86dIizD",
+      "number": 940,
+      "title": "impose test format verification after fill",
+      "body": "looks like evmone-t8n  generated genesis with \"baseFeePerGas\": \"0x00\",  on frontier network\n\nso we need to check the generated test format with consume. like I did with retesteth. if blockchain test is of network frontier.  the genesis must not have  other fork fields \nand vice versa. this is not being checked. I am getting test with genesis header with baseFeePerGas when using evmonet8n\n\nHere separation of concern. first I have module that generates the tests. Second is the module that executes tests. \nThe execution module does not know what kind of json it gets therefor it has a scheme validator to analyze the correctness of json. \n\nI would still vote on test json schema verification model. Maybe if not after fill, but in Dan's consume. although would be nice to have it in fill too. \n\nyes it might be redundant perhaps it can be optional in fill. \nthe idea is to have all the logic related to json verification at one place. \n\nI have the following checks:\n- verify that rlp fields are equal to it's json description. (although it is adviced to parse rlp only, some clients might parse json instead. so we need to make sure that test's json is equal to it's rlp.)\n- verify fixture structure. verify that it has only expected fields. and nothing is missing. depending on fixture format.\n- verify block header description is not only equal to it's rlp but also that if it's a valid block it must be of the type of network the test is on.",
+      "url": "https://github.com/ethereum/execution-spec-tests/issues/940",
+      "createdAt": 1730834068000,
+      "updatedAt": 1738944195000,
+      "author": {
+        "id": "MDQ6VXNlcjQ0OTIzNDE=",
+        "login": "winsvega",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4492341?u=e0ace1d74338b89507c4be570e7190d6a66ec3b9&v=4",
+        "url": "https://github.com/winsvega"
+      },
+      "comments": {
+        "totalCount": 4
+      },
+      "labels": [
+        {
+          "name": "good first issue",
+          "color": "7057ff"
+        },
+        {
+          "name": "type:feat",
+          "color": "0e8a16"
+        },
+        {
+          "name": "scope:fill",
+          "color": "0052cc"
+        }
+      ],
+      "repository": {
+        "id": "R_kgDOIQGLKw",
+        "name": "execution-spec-tests",
+        "nameWithOwner": "ethereum/execution-spec-tests",
+        "description": "A Python framework and collection of test cases to generate test vectors for Ethereum execution clients",
+        "stargazerCount": 144,
+        "forkCount": 133,
+        "primaryLanguage": {
+          "name": "Python",
+          "color": "#3572A5"
+        },
+        "url": "https://github.com/ethereum/execution-spec-tests",
+        "createdAt": "2022-10-18T17:52:59Z",
+        "updatedAt": "2025-05-20T14:01:11Z",
+        "pushedAt": "2025-05-20T14:11:12Z",
+        "owner": {
+          "id": "MDEyOk9yZ2FuaXphdGlvbjYyNTA3NTQ=",
+          "login": "ethereum",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/6250754?v=4",
+          "url": "https://github.com/ethereum"
+        }
+      },
+      "commentsCount": 4
+    },
+    {
+      "id": "I_kwDOCZHFD86XCT1X",
+      "number": 1019,
+      "title": "Add internal benchmarks for BLS precompiles",
+      "body": "",
+      "url": "https://github.com/ethereum/evmone/issues/1019",
+      "createdAt": 1726671091000,
+      "updatedAt": 1745651131000,
+      "author": {
+        "id": "MDQ6VXNlcjU3MzM4MA==",
+        "login": "chfast",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/573380?u=6cd4b0f473d862749cbed137d0bb32b726ae071f&v=4",
+        "url": "https://github.com/chfast"
+      },
+      "comments": {
+        "totalCount": 2
+      },
+      "labels": [
+        {
+          "name": "good first issue",
+          "color": "7057ff"
+        },
+        {
+          "name": "precompiles",
+          "color": "365F60"
+        }
+      ],
+      "repository": {
+        "id": "MDEwOlJlcG9zaXRvcnkxNjA1NDgxMTE=",
+        "name": "evmone",
+        "nameWithOwner": "ethereum/evmone",
+        "description": "Fast Ethereum Virtual Machine implementation",
+        "stargazerCount": 922,
+        "forkCount": 324,
+        "primaryLanguage": {
+          "name": "C++",
+          "color": "#f34b7d"
+        },
+        "url": "https://github.com/ethereum/evmone",
+        "createdAt": "2018-12-05T16:37:26Z",
+        "updatedAt": "2025-05-20T14:09:16Z",
+        "pushedAt": "2025-05-20T14:12:23Z",
+        "owner": {
+          "id": "MDEyOk9yZ2FuaXphdGlvbjYyNTA3NTQ=",
+          "login": "ethereum",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/6250754?v=4",
+          "url": "https://github.com/ethereum"
+        }
+      },
+      "commentsCount": 2
+    },
+    {
+      "id": "I_kwDOBvEA_s6TZTVx",
+      "number": 13679,
+      "title": "Design request: redesign dapps page",
+      "body": "This is a design request for anyone to redesign our https://ethereum.org/en/dapps . Ideally, take a holistic approach, remove excessive info and freshen up the UI.\r\n\r\nIt has been a long time since this page has been updated and the ecosystem has evolved since.\r\n\r\n- The mobile design is not well optimized currently hindering the mobile UX\r\n- The content is too large in its scope for one page (the focus should be on doing, less learning)\r\n- Must follow design system - https://www.figma.com/community/file/1134414495420383395\r\n\r\nWe are looking for fresh takes and ideas for this page, this issue is a call for design exploration and ideation in figma\r\n\r\n\r\n",
+      "url": "https://github.com/ethereum/ethereum-org-website/issues/13679",
+      "createdAt": 1724059413000,
+      "updatedAt": 1733126863000,
+      "author": {
+        "id": "U_kgDOBgDuBw",
+        "login": "konopkja",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/100724231?u=9f8f02f877c7d0622becb1d8e36c5cd6272dd086&v=4",
+        "url": "https://github.com/konopkja"
+      },
+      "comments": {
+        "totalCount": 13
+      },
+      "labels": [
+        {
+          "name": "help wanted",
+          "color": "206699"
+        },
+        {
+          "name": "Status: Stale",
+          "color": "eacc8f"
+        },
+        {
+          "name": "good first issue",
+          "color": "6C5DF6"
+        },
+        {
+          "name": "ui design 💅",
+          "color": "6AB5DA"
+        },
+        {
+          "name": "ux design 🔬",
+          "color": "682424"
+        },
+        {
+          "name": "design",
+          "color": "800284"
+        }
+      ],
+      "repository": {
+        "id": "MDEwOlJlcG9zaXRvcnkxMTY0NTc3MjY=",
+        "name": "ethereum-org-website",
+        "nameWithOwner": "ethereum/ethereum-org-website",
+        "description": "Ethereum.org is a primary online resource for the Ethereum community.",
+        "stargazerCount": 5372,
+        "forkCount": 5077,
+        "primaryLanguage": {
+          "name": "Markdown",
+          "color": "#083fa1"
+        },
+        "url": "https://github.com/ethereum/ethereum-org-website",
+        "createdAt": "2018-01-06T05:54:37Z",
+        "updatedAt": "2025-05-20T05:51:09Z",
+        "pushedAt": "2025-05-20T14:13:03Z",
+        "owner": {
+          "id": "MDEyOk9yZ2FuaXphdGlvbjYyNTA3NTQ=",
+          "login": "ethereum",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/6250754?v=4",
+          "url": "https://github.com/ethereum"
+        }
+      },
+      "commentsCount": 13
+    },
+    {
+      "id": "I_kwDOBvEA_s6THyGR",
+      "number": 13655,
+      "title": "Content request: best design practices for wallets (UX/UI)",
+      "body": "This is a content request for anyone to write a beginner friendly article about designing a crypto wallet interface.\r\n\r\nWhoever wants to write the article, please first comment on this issue and we will assign it to you.\r\n\r\n**Where will the article live?**\r\nIt will be added to design documentation: https://ethereum.org/en/developers/docs/design-and-ux/\r\n\r\n**Describe the solution you'd like**\r\n\r\n- focus on practical tips how to handle different steps in the process\r\n- describe common UX issues in wallets to fix or avoid\r\n- guidelines to follow \r\n\r\nIf this is too broad it can be split into multiple articles",
+      "url": "https://github.com/ethereum/ethereum-org-website/issues/13655",
+      "createdAt": 1723735362000,
+      "updatedAt": 1733213234000,
+      "author": {
+        "id": "U_kgDOBgDuBw",
+        "login": "konopkja",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/100724231?u=9f8f02f877c7d0622becb1d8e36c5cd6272dd086&v=4",
+        "url": "https://github.com/konopkja"
+      },
+      "comments": {
+        "totalCount": 10
+      },
+      "labels": [
+        {
+          "name": "help wanted",
+          "color": "206699"
+        },
+        {
+          "name": "content 🖋️",
+          "color": "70e855"
+        },
+        {
+          "name": "Status: Stale",
+          "color": "eacc8f"
+        },
+        {
+          "name": "good first issue",
+          "color": "6C5DF6"
+        },
+        {
+          "name": "design",
+          "color": "800284"
+        }
+      ],
+      "repository": {
+        "id": "MDEwOlJlcG9zaXRvcnkxMTY0NTc3MjY=",
+        "name": "ethereum-org-website",
+        "nameWithOwner": "ethereum/ethereum-org-website",
+        "description": "Ethereum.org is a primary online resource for the Ethereum community.",
+        "stargazerCount": 5372,
+        "forkCount": 5077,
+        "primaryLanguage": {
+          "name": "Markdown",
+          "color": "#083fa1"
+        },
+        "url": "https://github.com/ethereum/ethereum-org-website",
+        "createdAt": "2018-01-06T05:54:37Z",
+        "updatedAt": "2025-05-20T05:51:09Z",
+        "pushedAt": "2025-05-20T14:13:03Z",
+        "owner": {
+          "id": "MDEyOk9yZ2FuaXphdGlvbjYyNTA3NTQ=",
+          "login": "ethereum",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/6250754?v=4",
+          "url": "https://github.com/ethereum"
+        }
+      },
+      "commentsCount": 10
+    },
+    {
+      "id": "I_kwDOBvEA_s6TFi5-",
+      "number": 13644,
+      "title": "Content request: ETH issuance - how many ETH are there?",
+      "body": "### Is your feature request related to a problem? Please describe.\n\nThis is a content request for anyone to write a beginner friendly article about ETH supply.\r\n\r\nWhoever wants to write the article, please first comment on this issue and we will assign it to you.\r\n\r\nUse this style guide and best practices to format the article appropriately for our audience: https://ethereum.org/en/contributing/style-guide/\n\n### Describe the solution you'd like\n\nA beginner friendly article explaining ETH supply.\r\n\r\n- How many ETH are there?\r\n- How does the supply work?\r\n- How is it different from real world currencies?\r\n- What are the implications and benefits?\n\n### Describe alternatives you've considered\n\nAlternatively, in smaller size could live on https://ethereum.org/en/eth/ \n\n### Additional context\n\n_No response_\n\n### Would you like to work on this issue?\n\n- [ ] Yes\n- [X] No",
+      "url": "https://github.com/ethereum/ethereum-org-website/issues/13644",
+      "createdAt": 1723713120000,
+      "updatedAt": 1736755639000,
+      "author": {
+        "id": "U_kgDOBgDuBw",
+        "login": "konopkja",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/100724231?u=9f8f02f877c7d0622becb1d8e36c5cd6272dd086&v=4",
+        "url": "https://github.com/konopkja"
+      },
+      "comments": {
+        "totalCount": 16
+      },
+      "labels": [
+        {
+          "name": "help wanted",
+          "color": "206699"
+        },
+        {
+          "name": "content 🖋️",
+          "color": "70e855"
+        },
+        {
+          "name": "Status: Stale",
+          "color": "eacc8f"
+        },
+        {
+          "name": "good first issue",
+          "color": "6C5DF6"
+        }
+      ],
+      "repository": {
+        "id": "MDEwOlJlcG9zaXRvcnkxMTY0NTc3MjY=",
+        "name": "ethereum-org-website",
+        "nameWithOwner": "ethereum/ethereum-org-website",
+        "description": "Ethereum.org is a primary online resource for the Ethereum community.",
+        "stargazerCount": 5372,
+        "forkCount": 5077,
+        "primaryLanguage": {
+          "name": "Markdown",
+          "color": "#083fa1"
+        },
+        "url": "https://github.com/ethereum/ethereum-org-website",
+        "createdAt": "2018-01-06T05:54:37Z",
+        "updatedAt": "2025-05-20T05:51:09Z",
+        "pushedAt": "2025-05-20T14:13:03Z",
+        "owner": {
+          "id": "MDEyOk9yZ2FuaXphdGlvbjYyNTA3NTQ=",
+          "login": "ethereum",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/6250754?v=4",
+          "url": "https://github.com/ethereum"
+        }
+      },
+      "commentsCount": 16
+    },
+    {
+      "id": "I_kwDOBvEA_s6QBT7P",
+      "number": 13422,
+      "title": "include event tracking for \"edit\" button globally ",
+      "body": "### Is your feature request related to a problem? Please describe.\r\n\r\nOur markdown page template includes \"edit\" button leading users to github to edit the content. Currently we do not track how many people click on this. We would like to have more information about this component.\r\n\r\nSee examples where this button is:\r\nhttps://ethereum.org/en/guides/\r\nhttps://ethereum.org/en/guides/how-to-create-an-ethereum-account/\r\nhttps://ethereum.org/en/web3/\r\nhttps://ethereum.org/en/developers/docs/\r\n\r\nThis is how the button looks like:\r\n<img width=\"232\" alt=\"Screenshot 2024-07-18 at 17 44 02\" src=\"https://github.com/user-attachments/assets/f60aa060-0c24-4c54-a34b-e4508988a94c\">\r\n\r\n\r\n### Describe the solution you'd like\r\n\r\nImplement custom event tracking code:\r\n\r\nEvent Category\r\nedit_page\r\n\r\nEvent Action\r\ngh_edit_click\r\n\r\nEvent Name\r\n{page url}\r\n\r\n\r\n### Describe alternatives you've considered\r\n\r\nNA\r\n\r\n### Additional context\r\n\r\n_No response_\r\n\r\n### Would you like to work on this issue?\r\n\r\n- [ ] Yes\r\n- [X] No",
+      "url": "https://github.com/ethereum/ethereum-org-website/issues/13422",
+      "createdAt": 1721306580000,
+      "updatedAt": 1735891604000,
+      "author": {
+        "id": "U_kgDOBgDuBw",
+        "login": "konopkja",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/100724231?u=9f8f02f877c7d0622becb1d8e36c5cd6272dd086&v=4",
+        "url": "https://github.com/konopkja"
+      },
+      "comments": {
+        "totalCount": 11
+      },
+      "labels": [
+        {
+          "name": "feature ✨",
+          "color": "1d76db"
+        },
+        {
+          "name": "help wanted",
+          "color": "206699"
+        },
+        {
+          "name": "Status: Stale",
+          "color": "eacc8f"
+        },
+        {
+          "name": "good first issue",
+          "color": "6C5DF6"
+        },
+        {
+          "name": "dev required",
+          "color": "90AE07"
+        }
+      ],
+      "repository": {
+        "id": "MDEwOlJlcG9zaXRvcnkxMTY0NTc3MjY=",
+        "name": "ethereum-org-website",
+        "nameWithOwner": "ethereum/ethereum-org-website",
+        "description": "Ethereum.org is a primary online resource for the Ethereum community.",
+        "stargazerCount": 5372,
+        "forkCount": 5077,
+        "primaryLanguage": {
+          "name": "Markdown",
+          "color": "#083fa1"
+        },
+        "url": "https://github.com/ethereum/ethereum-org-website",
+        "createdAt": "2018-01-06T05:54:37Z",
+        "updatedAt": "2025-05-20T05:51:09Z",
+        "pushedAt": "2025-05-20T14:13:03Z",
+        "owner": {
+          "id": "MDEyOk9yZ2FuaXphdGlvbjYyNTA3NTQ=",
+          "login": "ethereum",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/6250754?v=4",
+          "url": "https://github.com/ethereum"
+        }
+      },
+      "commentsCount": 11
+    },
+    {
+      "id": "I_kwDOBvEA_s6PuyoR",
+      "number": 13410,
+      "title": "Add JSON-RPC endpoint playground links",
+      "body": "### Is your feature request related to a problem? Please describe.\n\nhttps://ethereum.org/en/developers/docs/apis/json-rpc/\r\n\r\nOur JSON-RPC page recently added a \"playground\" link above all the endpoints (<https://ethereum-json-rpc.com/>)...  But, while a user is scrolling through or reading about a specific endpoint, there is no convenient way to jump to this playground to try out the endpoint.\n\n### Describe the solution you'd like\n\nProposing we add a link to each endpoint that takes user straight to that endpoint in the playground... ie: `eth_accounts`... <https://ethereum.org/en/developers/docs/apis/json-rpc/#eth_accounts> could have a link such as `[Try this endpoint](https://ethereum-json-rpc.com/?method=eth_accounts)`\n\n### Describe alternatives you've considered\n\n- Build out our own playground (high effort, lower impact given alternative)\r\n- Don't do anything (limits UX by lacking convenient ways to try out an endpoint)\n\n### Additional context\n\n_No response_\n\n### Would you like to work on this issue?\n\n- [ ] Yes\n- [X] No",
+      "url": "https://github.com/ethereum/ethereum-org-website/issues/13410",
+      "createdAt": 1721142436000,
+      "updatedAt": 1735719469000,
+      "author": {
+        "id": "MDQ6VXNlcjU0MjI3NzMw",
+        "login": "wackerow",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54227730?u=d309b39e7724bff546ce919e209cb06f440a8fe8&v=4",
+        "url": "https://github.com/wackerow"
+      },
+      "comments": {
+        "totalCount": 10
+      },
+      "labels": [
+        {
+          "name": "feature ✨",
+          "color": "1d76db"
+        },
+        {
+          "name": "help wanted",
+          "color": "206699"
+        },
+        {
+          "name": "Status: Stale",
+          "color": "eacc8f"
+        },
+        {
+          "name": "good first issue",
+          "color": "6C5DF6"
+        }
+      ],
+      "repository": {
+        "id": "MDEwOlJlcG9zaXRvcnkxMTY0NTc3MjY=",
+        "name": "ethereum-org-website",
+        "nameWithOwner": "ethereum/ethereum-org-website",
+        "description": "Ethereum.org is a primary online resource for the Ethereum community.",
+        "stargazerCount": 5372,
+        "forkCount": 5077,
+        "primaryLanguage": {
+          "name": "Markdown",
+          "color": "#083fa1"
+        },
+        "url": "https://github.com/ethereum/ethereum-org-website",
+        "createdAt": "2018-01-06T05:54:37Z",
+        "updatedAt": "2025-05-20T05:51:09Z",
+        "pushedAt": "2025-05-20T14:13:03Z",
+        "owner": {
+          "id": "MDEyOk9yZ2FuaXphdGlvbjYyNTA3NTQ=",
+          "login": "ethereum",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/6250754?v=4",
+          "url": "https://github.com/ethereum"
+        }
+      },
+      "commentsCount": 10
+    },
+    {
+      "id": "I_kwDOH5x33s6NC3X_",
+      "number": 496,
+      "title": "Move trace printing to prettyprinter",
+      "body": "Currently the traces are printed with hardcoded escape codes which makes it hard to show in brick UI ([example](https://github.com/crytic/echidna/blob/bd90027726ca091f8d6755fec1fb17b13a562f14/lib/Echidna/UI/Widgets.hs#L307-L310)). We should update [showTrace](https://github.com/ethereum/hevm/blob/02c072f8d7c4e6f12ff0b5b8127a8a765691e32a/src/EVM/Format.hs#L198) to return a `Doc` structure and use ANSI terminal renderer to restore the current behavior. This will also make formatting traces a lot more flexible so we don't have to rewrite `showTrace` for each use case.\r\n\r\nThere are many pretty printing libraries in Haskell, [here](https://www.reddit.com/r/haskell/comments/8ilw75/comment/dytne13/) is some rationale for using [prettyprinter](https://hackage.haskell.org/package/prettyprinter).",
+      "url": "https://github.com/ethereum/hevm/issues/496",
+      "createdAt": 1718969191000,
+      "updatedAt": 1731041132000,
+      "author": {
+        "id": "MDQ6VXNlcjQ2Nzk3MjE=",
+        "login": "arcz",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4679721?u=58e57cba51d882e358cbed07ec561a88d2580359&v=4",
+        "url": "https://github.com/arcz"
+      },
+      "comments": {
+        "totalCount": 2
+      },
+      "labels": [
+        {
+          "name": "enhancement",
+          "color": "a2eeef"
+        },
+        {
+          "name": "good first issue",
+          "color": "539236"
+        }
+      ],
+      "repository": {
+        "id": "R_kgDOH5x33g",
+        "name": "hevm",
+        "nameWithOwner": "ethereum/hevm",
+        "description": "symbolic EVM evaluator",
+        "stargazerCount": 280,
+        "forkCount": 62,
+        "primaryLanguage": {
+          "name": "Haskell",
+          "color": "#5e5086"
+        },
+        "url": "https://github.com/ethereum/hevm",
+        "createdAt": "2022-08-29T18:39:09Z",
+        "updatedAt": "2025-05-20T12:44:46Z",
+        "pushedAt": "2025-05-20T14:13:21Z",
+        "owner": {
+          "id": "MDEyOk9yZ2FuaXphdGlvbjYyNTA3NTQ=",
+          "login": "ethereum",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/6250754?v=4",
+          "url": "https://github.com/ethereum"
+        }
+      },
+      "commentsCount": 2
+    },
+    {
+      "id": "I_kwDODgt-Gc6M7CvG",
+      "number": 321,
+      "title": "Set up markdown linter with rules of EIPs repo",
+      "body": "See https://github.com/ethereum/EIPs/blob/1e05ba28aef2537495278a455849a23f71cc9bac/.github/workflows/ci.yml#L146\r\n\r\nand https://github.com/ethereum/EIPs/blob/1e05ba28aef2537495278a455849a23f71cc9bac/config/.markdownlint.yaml\r\n\r\n\r\nWhy? See https://github.com/ethereum/portal-network-specs/pull/320#discussion_r1647116275",
+      "url": "https://github.com/ethereum/portal-network-specs/issues/321",
+      "createdAt": 1718885518000,
+      "updatedAt": 1745578024000,
+      "author": {
+        "id": "MDQ6VXNlcjc4NTc1ODM=",
+        "login": "kdeme",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7857583?v=4",
+        "url": "https://github.com/kdeme"
+      },
+      "comments": {
+        "totalCount": 3
+      },
+      "labels": [
+        {
+          "name": "documentation",
+          "color": "0075ca"
+        },
+        {
+          "name": "good first issue",
+          "color": "7057ff"
+        }
+      ],
+      "repository": {
+        "id": "MDEwOlJlcG9zaXRvcnkyMzU2MzQyMDE=",
+        "name": "portal-network-specs",
+        "nameWithOwner": "ethereum/portal-network-specs",
+        "description": "Official repository for specifications for the Portal Network",
+        "stargazerCount": 341,
+        "forkCount": 93,
+        "primaryLanguage": {
+          "name": "JavaScript",
+          "color": "#f1e05a"
+        },
+        "url": "https://github.com/ethereum/portal-network-specs",
+        "createdAt": "2020-01-22T18:08:10Z",
+        "updatedAt": "2025-05-15T22:20:31Z",
+        "pushedAt": "2025-05-20T14:34:45Z",
+        "owner": {
+          "id": "MDEyOk9yZ2FuaXphdGlvbjYyNTA3NTQ=",
+          "login": "ethereum",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/6250754?v=4",
+          "url": "https://github.com/ethereum"
+        }
+      },
+      "commentsCount": 3
+    },
+    {
+      "id": "I_kwDOCusnus6L3g6n",
+      "number": 1430,
+      "title": "Try to enable Mocha's parallel mode",
+      "body": "We want to try if it is possible to parallelize the tests per test file. In the server tests, this will require to spin up the hardhat chain and the server on different ports for each test file. Special care needs to be taken for the database. I am not sure if we want to spin up one for each test file.\n\nThis does not have a high priority and we should not spend more than half a day or something on it. If it is more complicated to enable, we don't do it.",
+      "url": "https://github.com/ethereum/sourcify/issues/1430",
+      "createdAt": 1718116109000,
+      "updatedAt": 1745931469000,
+      "author": {
+        "id": "MDQ6VXNlcjM0NDU2Nzk3",
+        "login": "manuelwedler",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/34456797?u=21f628b8373830ecfec4971f5b6de2d74afa852c&v=4",
+        "url": "https://github.com/manuelwedler"
+      },
+      "comments": {
+        "totalCount": 0
+      },
+      "labels": [
+        {
+          "name": "good first issue",
+          "color": "006b75"
+        }
+      ],
+      "repository": {
+        "id": "MDEwOlJlcG9zaXRvcnkxODMxODMyOTA=",
+        "name": "sourcify",
+        "nameWithOwner": "ethereum/sourcify",
+        "description": "Source code verification service for Ethereum smart contracts",
+        "stargazerCount": 843,
+        "forkCount": 459,
+        "primaryLanguage": {
+          "name": "TypeScript",
+          "color": "#3178c6"
+        },
+        "url": "https://github.com/ethereum/sourcify",
+        "createdAt": "2019-04-24T08:23:22Z",
+        "updatedAt": "2025-05-20T12:48:11Z",
+        "pushedAt": "2025-05-20T12:57:25Z",
+        "owner": {
+          "id": "MDEyOk9yZ2FuaXphdGlvbjYyNTA3NTQ=",
+          "login": "ethereum",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/6250754?v=4",
+          "url": "https://github.com/ethereum"
+        }
+      },
+      "commentsCount": 0
+    },
+    {
+      "id": "I_kwDOBvEA_s6KRR1z",
+      "number": 13054,
+      "title": "Create stories for Staking components",
+      "body": "Create stories for the following Staking components:\r\n- [ ] StakingConsiderations\r\n- [ ] StakingProductsCardGrid\r\n- [ ] StakingCommunityuCallout\r\n- [ ] StakingComparison\r\n- [ ] StakingGuides\r\n- [ ] StakingHierarchy\r\n- [ ] StakingHowSoloWorks\r\n- [ ] StakingLaunchpadWidget\r\n- [ ] StakingStatsBox\r\n- [ ] WithdrawalCredentials\r\n- [ ] WithdrawalsTabComparison",
+      "url": "https://github.com/ethereum/ethereum-org-website/issues/13054",
+      "createdAt": 1716844462000,
+      "updatedAt": 1745741234000,
+      "author": {
+        "id": "MDQ6VXNlcjE1NTg5MjI2",
+        "login": "corwintines",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/15589226?u=454033ce58566c9d8e0c7a666b9b6cd0bf97adf0&v=4",
+        "url": "https://github.com/corwintines"
+      },
+      "comments": {
+        "totalCount": 6
+      },
+      "labels": [
+        {
+          "name": "feature ✨",
+          "color": "1d76db"
+        },
+        {
+          "name": "help wanted",
+          "color": "206699"
+        },
+        {
+          "name": "good first issue",
+          "color": "6C5DF6"
+        }
+      ],
+      "repository": {
+        "id": "MDEwOlJlcG9zaXRvcnkxMTY0NTc3MjY=",
+        "name": "ethereum-org-website",
+        "nameWithOwner": "ethereum/ethereum-org-website",
+        "description": "Ethereum.org is a primary online resource for the Ethereum community.",
+        "stargazerCount": 5372,
+        "forkCount": 5077,
+        "primaryLanguage": {
+          "name": "Markdown",
+          "color": "#083fa1"
+        },
+        "url": "https://github.com/ethereum/ethereum-org-website",
+        "createdAt": "2018-01-06T05:54:37Z",
+        "updatedAt": "2025-05-20T05:51:09Z",
+        "pushedAt": "2025-05-20T14:13:03Z",
+        "owner": {
+          "id": "MDEyOk9yZ2FuaXphdGlvbjYyNTA3NTQ=",
+          "login": "ethereum",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/6250754?v=4",
+          "url": "https://github.com/ethereum"
+        }
+      },
+      "commentsCount": 6
+    },
+    {
+      "id": "I_kwDOBvEA_s6KRRzb",
+      "number": 13053,
+      "title": "Create stories for FindWallet components",
+      "body": "Create stories to test the following FindWallet components:\r\n- [ ] WalletTable\r\n- [ ] WalletEmptyState\r\n- [ ] WalletMoreInfo\r\n- [ ] WalletMoreInfoCategory\r\n- [ ] LanguageSupportFilter\r\n- [ ] MobileFiltersButton\r\n- [ ] MobileFiltersMenu\r\n- [ ] ResetFiltersButton\r\n- [ ] WalletFilterFeature\r\n- [ ] WalletFilterPersona\r\n- [ ] WalletFilterSidebar",
+      "url": "https://github.com/ethereum/ethereum-org-website/issues/13053",
+      "createdAt": 1716844451000,
+      "updatedAt": 1724918778000,
+      "author": {
+        "id": "MDQ6VXNlcjE1NTg5MjI2",
+        "login": "corwintines",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/15589226?u=454033ce58566c9d8e0c7a666b9b6cd0bf97adf0&v=4",
+        "url": "https://github.com/corwintines"
+      },
+      "comments": {
+        "totalCount": 6
+      },
+      "labels": [
+        {
+          "name": "feature ✨",
+          "color": "1d76db"
+        },
+        {
+          "name": "help wanted",
+          "color": "206699"
+        },
+        {
+          "name": "Status: Stale",
+          "color": "eacc8f"
+        },
+        {
+          "name": "good first issue",
+          "color": "6C5DF6"
+        }
+      ],
+      "repository": {
+        "id": "MDEwOlJlcG9zaXRvcnkxMTY0NTc3MjY=",
+        "name": "ethereum-org-website",
+        "nameWithOwner": "ethereum/ethereum-org-website",
+        "description": "Ethereum.org is a primary online resource for the Ethereum community.",
+        "stargazerCount": 5372,
+        "forkCount": 5077,
+        "primaryLanguage": {
+          "name": "Markdown",
+          "color": "#083fa1"
+        },
+        "url": "https://github.com/ethereum/ethereum-org-website",
+        "createdAt": "2018-01-06T05:54:37Z",
+        "updatedAt": "2025-05-20T05:51:09Z",
+        "pushedAt": "2025-05-20T14:13:03Z",
+        "owner": {
+          "id": "MDEyOk9yZ2FuaXphdGlvbjYyNTA3NTQ=",
+          "login": "ethereum",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/6250754?v=4",
+          "url": "https://github.com/ethereum"
+        }
+      },
+      "commentsCount": 6
+    },
+    {
+      "id": "I_kwDOBvEA_s6KRRoS",
+      "number": 13050,
+      "title": "Create stories for Header components",
+      "body": "Create stories for the following header components:\r\n- [ ] LanguagePicker\r\n- [ ] Nav\r\n- [ ] Search",
+      "url": "https://github.com/ethereum/ethereum-org-website/issues/13050",
+      "createdAt": 1716844397000,
+      "updatedAt": 1737706025000,
+      "author": {
+        "id": "MDQ6VXNlcjE1NTg5MjI2",
+        "login": "corwintines",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/15589226?u=454033ce58566c9d8e0c7a666b9b6cd0bf97adf0&v=4",
+        "url": "https://github.com/corwintines"
+      },
+      "comments": {
+        "totalCount": 7
+      },
+      "labels": [
+        {
+          "name": "feature ✨",
+          "color": "1d76db"
+        },
+        {
+          "name": "help wanted",
+          "color": "206699"
+        },
+        {
+          "name": "Status: Stale",
+          "color": "eacc8f"
+        },
+        {
+          "name": "good first issue",
+          "color": "6C5DF6"
+        }
+      ],
+      "repository": {
+        "id": "MDEwOlJlcG9zaXRvcnkxMTY0NTc3MjY=",
+        "name": "ethereum-org-website",
+        "nameWithOwner": "ethereum/ethereum-org-website",
+        "description": "Ethereum.org is a primary online resource for the Ethereum community.",
+        "stargazerCount": 5372,
+        "forkCount": 5077,
+        "primaryLanguage": {
+          "name": "Markdown",
+          "color": "#083fa1"
+        },
+        "url": "https://github.com/ethereum/ethereum-org-website",
+        "createdAt": "2018-01-06T05:54:37Z",
+        "updatedAt": "2025-05-20T05:51:09Z",
+        "pushedAt": "2025-05-20T14:13:03Z",
+        "owner": {
+          "id": "MDEyOk9yZ2FuaXphdGlvbjYyNTA3NTQ=",
+          "login": "ethereum",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/6250754?v=4",
+          "url": "https://github.com/ethereum"
+        }
+      },
+      "commentsCount": 7
+    },
+    {
+      "id": "I_kwDOBvEA_s6KRRYd",
+      "number": 13046,
+      "title": "Create issue for BannerGrid components",
+      "body": "Create story for the following BannerGrid components:\r\n- [ ] Banner\r\n- [ ] BannerBody\r\n- [ ] BannerImage\r\n- [ ] BannerGrid\r\n- [ ] BannerGridCell",
+      "url": "https://github.com/ethereum/ethereum-org-website/issues/13046",
+      "createdAt": 1716844327000,
+      "updatedAt": 1727424418000,
+      "author": {
+        "id": "MDQ6VXNlcjE1NTg5MjI2",
+        "login": "corwintines",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/15589226?u=454033ce58566c9d8e0c7a666b9b6cd0bf97adf0&v=4",
+        "url": "https://github.com/corwintines"
+      },
+      "comments": {
+        "totalCount": 6
+      },
+      "labels": [
+        {
+          "name": "feature ✨",
+          "color": "1d76db"
+        },
+        {
+          "name": "help wanted",
+          "color": "206699"
+        },
+        {
+          "name": "Status: Stale",
+          "color": "eacc8f"
+        },
+        {
+          "name": "good first issue",
+          "color": "6C5DF6"
+        }
+      ],
+      "repository": {
+        "id": "MDEwOlJlcG9zaXRvcnkxMTY0NTc3MjY=",
+        "name": "ethereum-org-website",
+        "nameWithOwner": "ethereum/ethereum-org-website",
+        "description": "Ethereum.org is a primary online resource for the Ethereum community.",
+        "stargazerCount": 5372,
+        "forkCount": 5077,
+        "primaryLanguage": {
+          "name": "Markdown",
+          "color": "#083fa1"
+        },
+        "url": "https://github.com/ethereum/ethereum-org-website",
+        "createdAt": "2018-01-06T05:54:37Z",
+        "updatedAt": "2025-05-20T05:51:09Z",
+        "pushedAt": "2025-05-20T14:13:03Z",
+        "owner": {
+          "id": "MDEyOk9yZ2FuaXphdGlvbjYyNTA3NTQ=",
+          "login": "ethereum",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/6250754?v=4",
+          "url": "https://github.com/ethereum"
+        }
+      },
+      "commentsCount": 6
+    },
+    {
+      "id": "I_kwDOBvEA_s6KRRUk",
+      "number": 13045,
+      "title": "Create story for AssetDownload component",
+      "body": "# Create story tests for AssetDownload component\r\n\r\n## Prerequisite\r\n\r\nTo get yourself up to speed on how we use storybook on ethereum.org, learn more [here](https://github.com/ethereum/ethereum-org-website/blob/dev/docs/applying-storybook.md)\r\n\r\n## What to do\r\n- [ ] Create story file `/src/components/AssetDownload/AssetDownload.stories.tsx`\r\n- [ ] Write story testing render of the AssetDownload component in context of use. \r\n\r\nNote: When testing the AssetDownload, make sure to include stories that test both the ArtistDownloadImage component, and the ArtistDownloadArtist component. You can get context of how this component is used on the [assets page](https://github.com/ethereum/ethereum-org-website/blob/9fe3b2d2af409bee47fba1759541af962ce2274c/src/pages/assets.tsx#L187)",
+      "url": "https://github.com/ethereum/ethereum-org-website/issues/13045",
+      "createdAt": 1716844310000,
+      "updatedAt": 1724486705000,
+      "author": {
+        "id": "MDQ6VXNlcjE1NTg5MjI2",
+        "login": "corwintines",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/15589226?u=454033ce58566c9d8e0c7a666b9b6cd0bf97adf0&v=4",
+        "url": "https://github.com/corwintines"
+      },
+      "comments": {
+        "totalCount": 8
+      },
+      "labels": [
+        {
+          "name": "feature ✨",
+          "color": "1d76db"
+        },
+        {
+          "name": "help wanted",
+          "color": "206699"
+        },
+        {
+          "name": "Status: Stale",
+          "color": "eacc8f"
+        },
+        {
+          "name": "good first issue",
+          "color": "6C5DF6"
+        }
+      ],
+      "repository": {
+        "id": "MDEwOlJlcG9zaXRvcnkxMTY0NTc3MjY=",
+        "name": "ethereum-org-website",
+        "nameWithOwner": "ethereum/ethereum-org-website",
+        "description": "Ethereum.org is a primary online resource for the Ethereum community.",
+        "stargazerCount": 5372,
+        "forkCount": 5077,
+        "primaryLanguage": {
+          "name": "Markdown",
+          "color": "#083fa1"
+        },
+        "url": "https://github.com/ethereum/ethereum-org-website",
+        "createdAt": "2018-01-06T05:54:37Z",
+        "updatedAt": "2025-05-20T05:51:09Z",
+        "pushedAt": "2025-05-20T14:13:03Z",
+        "owner": {
+          "id": "MDEyOk9yZ2FuaXphdGlvbjYyNTA3NTQ=",
+          "login": "ethereum",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/6250754?v=4",
+          "url": "https://github.com/ethereum"
+        }
+      },
+      "commentsCount": 8
+    },
+    {
+      "id": "I_kwDOBvEA_s6KROfY",
+      "number": 13043,
+      "title": "Implementation of visual testing epic",
+      "body": "_This is part of our [Testing](https://github.com/ethereum/ethereum-org-website/issues/12746) epic from our Q2 roadmap._\n\n## Description\n\nWe have implemented support for storybook to do testing on [ethereum.org](https://ethereum.org/). We would like to be able to catch visual regressions before they reach production, helping us build confidence so that we can improve stability of ethereum.org through a testing suite. The first phase of this will be implementing visual storybook tests on our suite of components. \n\nBelow is the list of components in the ethereum.org repo, broken down by [Atomic design](https://www.uxpin.com/studio/blog/atomic-ui-components/#:~:text=Atoms.,Examples%20include%20buttons%20or%20forms.).\n\n## How to contribute\nIf you’d like to help with adding stories for components, please follow these steps:\n\n1. Read the [storybook documentation](https://github.com/ethereum/ethereum-org-website/blob/dev/docs/applying-storybook.md) for the project\n2. Leave a comment here asking which component you would ke to work out. We will be going from the top of the list to bottom (Atoms to Pages).\n3. We assign you to the file (by adding your handle next to the file name in the list).\n    - Read and follow our storybook implementation guide for some tips & guidance.\n    - **If you were assigned to multiple files** then create a separate PR for each component. It will make the testing and review process much simpler and more organized.\n4. Once you finish it (PR merged), we’ll mark it as done.\n5. Repeat!\n\n-----\n\n## Components\n\n### Atoms\n\nIn Atomic Design, as in chemistry, atoms are the basic elements that help inform everything. In the world of web applications, atoms are the foundational elements, such as HTML tags, fonts, animations, and color palettes. Web design “atoms” can also be less concrete. Examples include buttons or forms.\n\n```[tasklist]\n### Typeography\n- [x] Headings\n- [x] @chakra-ui/components/Link\n- [x] Text \n```\n\n```[tasklist]\n### Media & icons - All visual references used in ethereum.org\n- [x] Avatars\n- [x] Icons\n- [ ] https://github.com/ethereum/ethereum-org-website/issues/13067\n- [ ] https://github.com/ethereum/ethereum-org-website/issues/13242\n- [ ] https://github.com/ethereum/ethereum-org-website/issues/13734\n- [ ] https://github.com/ethereum/ethereum-org-website/issues/13250\n```\n\n```[tasklist]\n### Forms - Base html components used in forms\n- [x] Buttons\n- [x] Checkbox\n- [x] Input variations and state\n- [x] Radio\n- [x] Select\n- [x] Slider\n- [x] Switch\n```\n\n### Molecules\n\nMolecules are the next-largest building block. Created by the joining of different atomic elements, molecules are complex by nature. Because they’re the product of various atoms, though, it’s possible to break them down, conceptually, into UI elements that are easier to digest. Examples of web design molecules include the things that become the backbone of the larger design system, such as form labels or input field.\n\n```[tasklist]\n### Navigation - components used to navigate to other pages. Inner or external to ethereum.org.\n- [ ] https://github.com/ethereum/ethereum-org-website/issues/14152\n- [ ] https://github.com/ethereum/ethereum-org-website/issues/13044\n- [x] Breadcrumbs\n- [ ] https://github.com/ethereum/ethereum-org-website/issues/13733\n- [ ] https://github.com/ethereum/ethereum-org-website/issues/13878\n- [ ] https://github.com/ethereum/ethereum-org-website/issues/13879\n- [ ] https://github.com/ethereum/ethereum-org-website/issues/14595\n- [ ] https://github.com/ethereum/ethereum-org-website/issues/14967\n- [ ] https://github.com/ethereum/ethereum-org-website/issues/14966\n- [x] Links\n- [x] MergeArticleList\n- [ ] https://github.com/ethereum/ethereum-org-website/issues/13210\n- [x] Sidenav #13063 @pettinarip\n```\n\n```[tasklist]\n### Display content - components used to show data/information primary\n- [ ] ActionCard\n- [ ] https://github.com/ethereum/ethereum-org-website/issues/13045\n- [ ] https://github.com/ethereum/ethereum-org-website/issues/13046\n- [ ] BeaconChainActions\n- [ ] BoxGrid\n- [ ] BugBountyCards\n- [ ] Callout\n- [ ] Card\n- [ ] CardList\n- [ ] Codeblock\n- [ ] CommunityEvents\n- [ ] ContributorsQuizBanner\n- [ ] CopyToClipboard\n- [ ] DataProductCard\n- [ ] EnergyConsumptionChart\n- [ ] EnvWarningBanner\n- [ ] EventCard\n- [ ] FeedbackCard\n- [ ] FileContributors\n- [ ] GitStars\n- [ ] HorizontalCard\n- [ ] InfoBanner\n- [ ] IssuesList\n- [ ] Layer2ProductCard\n- [ ] Leaderboard\n- [ ] LearningToolsCardGrid\n- [x] GlossaryDefinition\n- [ ] NetworkUpgradeSummary\n- [ ] Layer2Onboard\n- [ ] MarkdownImage\n- [ ] MatomoOptOut\n- [ ] https://github.com/ethereum/ethereum-org-website/issues/13047\n- [ ] OrderedList\n- [ ] ProductCard\n- [ ] ProductDisclaimer\n- [ ] ProductList\n- [ ] RandomAppList\n- [ ] Progress\n- [ ] https://github.com/ethereum/ethereum-org-website/issues/13048\n- [ ] https://github.com/ethereum/ethereum-org-website/issues/13211\n- [ ] RoadmapImageContent\n- [ ] SocialListItem\n- [ ] StablecoinBoxGrid\n- [ ] StablecoinsTable\n- [x] Stat\n- [ ] StateErrorMessage\n- [x] Tables\n- [x] Tags\n- [ ] TitleCardList\n- [ ] TranslationBanner\n- [ ] TranslationBannerLegal\n- [ ] TranslationLeaderboard\n- [ ] TutorialMetadata\n- [ ] TutorialTags\n- [ ] UpgradeStatus\n- [ ] UpgradeTableOfContents\n- [ ] Youtube\n```\n\n```[tasklist]\n### Disclosure content - components used to hide and show content useing interactive functions\n- [x] Accordion\n- [ ] ButtonDropdown\n- [ ] StablecoinAccordion\n- [x] Switch\n- [ ] Tabs\n```\n\n```[tasklist]\n### Overlay content - components used on top from the main page\n- [ ] CodeModal\n- [ ] ExpandableCard\n- [ ] ExpandableInfo\n- [x] FeedbackWidget\n- [x] GlossaryTooltip\n- [x] Modal\n- [ ] Popover\n- [x] Tooltip\n- [ ] TooltipLink\n```\n\n```[tasklist]\n### Action feedback - components used to show feedback of a user action\n- [x] Alerts\n```\n\n### Organisms\n\nAtoms combine to form molecules, and groups of molecules form organisms. In the world of Atomic Design, organisms are the UI elements that shape both the appearance and functionality of a website. They’re also the elements that start to impact user interface. The way a developer arranges molecules informs the site experience and the complexity of the finished product. Examples of organisms include logos, search fields, and main navigation which together may form a header organism.\n\n```[tasklist]\n- [ ] https://github.com/ethereum/ethereum-org-website/issues/13050\n- [ ] Footer\n- [ ] MainArticle\n- [x] Hero\n- [ ] https://github.com/ethereum/ethereum-org-website/pull/13055\n```\n\n```[tasklist]\n### Snippets - composed components has use cases or references to display the same type of data\n-  [ ] https://github.com/ethereum/ethereum-org-website/issues/13052\n```\n\n### Templates\n\nAt this phase of the Atomic Design process, we start to break with the chemistry analogy and shift back into the lexicon of front-end development, as a whole. Templates, then, are “organisms” strung together at the page-level or beyond. Templates, online atoms, organisms, and molecules, are highly concrete. They provide a fixed context for the more abstract pieces to fit and are responsible for pulling the site together into something resembling its final form. An HTML wireframe is an excellent example of a template.\n\n```[tasklist]\n### Templates - base pages to be used in creation of new content. They incorporate all of the components mandatory for the page\n- [ ] Docs\n- [ ] Roadmap [Blocked on refactor]\n- [x] RootLayout (BaseLayout)\n- [ ] Staking [Blocked on refactor]\n- [ ] Static\n- [ ] Tutorial\n- [ ] Upgrade [Blocked on refactor]\n- [ ] Usecases [Blocked on refactor]\n```\n\n### Pages\n\nPages, finally, are the final element of Atomic Design. According to Frost himself, pages are the specific instances of templates. Pages are the most tangible element of all and are the places users spend most of their time. They’re also one of the most essential phases of the Atomic Design process since the final iteration of pages is where developers get to see whether the entire design system is effective or not. In short, the final appearance of the pages dictates whether the product design is ready to launch, or whether the developer needs to loop back and make changes to earlier UI design elements.\n\n```[tasklist]\n### Special cases - Pages that are unique and require custom made components\n- [ ] https://github.com/ethereum/ethereum-org-website/issues/13053\n- [ ] https://github.com/ethereum/ethereum-org-website/issues/13054\n```\n\n```[tasklist]\n### Pages - List of pages with final content to showcase and inspire\n- [ ] / (homepage)\n- [ ] /404\n- [ ] /assets\n- [ ] /bug-bounty\n- [ ] /community\n- [ ] /contributing/translation-program\n- [ ] /contributing/translation-program/acknowledgements\n- [ ] /contributing/translation-program/contributors\n- [ ] /dapps\n- [ ] /developers\n- [ ] /developers/learning-tools\n- [ ] /developers/local-environment\n- [ ] /developers/tutorials\n- [ ] /eth\n- [ ] /gas\n- [ ] /get-eth\n- [ ] /layer-2\n- [ ] /learn\n- [ ] /quizzes\n- [ ] /roadmap\n- [ ] /roadmap/vision\n- [ ] /run-a-node\n- [ ] /stablecoins\n- [ ] /staking\n- [ ] /staking/deposit-contract\n- [ ] /wallets\n- [ ] /wallets/find-wallet\n- [ ] /what-is-ethereum\n```\n\n-----\n\n## How to contribute\nIf you’d like to help with adding stories for components, please follow these steps:\n\n1. Read the [storybook documentation](https://github.com/ethereum/ethereum-org-website/blob/dev/docs/applying-storybook.md) for the project\n2. Leave a comment here asking which component you would ke to work out. We will be going from the top of the list to bottom (Atoms to Pages).\n3. We assign you to the file (by adding your handle next to the file name in the list).\n    - Read and follow our storybook implementation guide for some tips & guidance.\n    - **If you were assigned to multiple files** then create a separate PR for each component. It will make the testing and review process much simpler and more organized.\n4. Once you finish it (PR merged), we’ll mark it as done.\n5. Repeat!",
+      "url": "https://github.com/ethereum/ethereum-org-website/issues/13043",
+      "createdAt": 1716843509000,
+      "updatedAt": 1746189309000,
+      "author": {
+        "id": "MDQ6VXNlcjE1NTg5MjI2",
+        "login": "corwintines",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/15589226?u=454033ce58566c9d8e0c7a666b9b6cd0bf97adf0&v=4",
+        "url": "https://github.com/corwintines"
+      },
+      "comments": {
+        "totalCount": 28
+      },
+      "labels": [
+        {
+          "name": "help wanted",
+          "color": "206699"
+        },
+        {
+          "name": "good first issue",
+          "color": "6C5DF6"
+        },
+        {
+          "name": "epic 💪",
+          "color": "1F78A9"
+        },
+        {
+          "name": "hacktoberfest",
+          "color": "F2B767"
+        },
+        {
+          "name": "hacktoberfest-beginner",
+          "color": "F5D720"
+        }
+      ],
+      "repository": {
+        "id": "MDEwOlJlcG9zaXRvcnkxMTY0NTc3MjY=",
+        "name": "ethereum-org-website",
+        "nameWithOwner": "ethereum/ethereum-org-website",
+        "description": "Ethereum.org is a primary online resource for the Ethereum community.",
+        "stargazerCount": 5372,
+        "forkCount": 5077,
+        "primaryLanguage": {
+          "name": "Markdown",
+          "color": "#083fa1"
+        },
+        "url": "https://github.com/ethereum/ethereum-org-website",
+        "createdAt": "2018-01-06T05:54:37Z",
+        "updatedAt": "2025-05-20T05:51:09Z",
+        "pushedAt": "2025-05-20T14:13:03Z",
+        "owner": {
+          "id": "MDEyOk9yZ2FuaXphdGlvbjYyNTA3NTQ=",
+          "login": "ethereum",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/6250754?v=4",
+          "url": "https://github.com/ethereum"
+        }
+      },
+      "commentsCount": 28
+    }
+  ]
+}
