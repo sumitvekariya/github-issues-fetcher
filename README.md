@@ -25,6 +25,8 @@ cp .env.example .env
 GITHUB_TOKEN=your_github_token_here
 ```
 
+You can generate a GitHub token by following [GitHub's guide on creating a personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic).
+
 You can also provide the token via the `--token` option when running commands.
 
 ## Usage
